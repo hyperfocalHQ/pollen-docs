@@ -1,0 +1,36 @@
+# Introducing Pollen
+
+Pollen is a collection of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) designed for rapid prototyping, consistent styling, and as a [utility-first](https://frontstuff.io/in-defense-of-utility-first-css) foundation for your own design systems.
+
+### What it looks like
+
+Pollen has no buildstep, class naming conventions, or framework gotchas. It works in stylesheets, inline styles, and CSS-in-JS.
+
+```css
+.button {
+  font: var(--font-sans);
+  padding: var(--spacing-1);
+  background: var(--color-blue);
+  color: white;
+  border-radius: var(--radius-2);
+  box-shadow: var(--elevation-1);
+  transition: background 150ms var(--easing-standard);
+}
+```
+
+### Modules
+
+* Typography system
+* Layout scales
+* Color palette
+* UI library
+
+{% hint style="info" %}
+### **Love Pollen? Try Satchel 🎒**
+
+Satchel is a lightweight library of CSS-in-JS utilities that makes development easier.  
+**Get Pollen 👉** [**pollen.style**](https://pollen.style)\*\*\*\*
+{% endhint %}
+
+**Made with ❤️ by** [**Peppercorn Studio**](https://peppercorn.studio) **in 🥝**
+
