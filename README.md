@@ -29,7 +29,7 @@ Pollen has no buildstep, class naming conventions, or framework gotchas. It work
 ### **Love Pollen? Try Satchel 🎒**
 
 Satchel is a lightweight library of CSS-in-JS utilities that makes development easier.  
-**Get Pollen 👉** [**pollen.style**](https://pollen.style)\*\*\*\*
+**Get Satchel 👉** [**satchel.style**](https://satchel.style)\*\*\*\*
 {% endhint %}
 
 **Made with ❤️ by** [**Peppercorn Studio**](https://peppercorn.studio) **in 🥝**
