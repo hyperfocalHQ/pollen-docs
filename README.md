@@ -20,10 +20,10 @@ Pollen has no buildstep, class naming conventions, or framework gotchas. It work
 
 ### Modules
 
-* Typography system
-* Layout scales
-* Color palette
-* UI library
+* [Typography system](modules/typography.md)
+* [Color palette](modules/colors.md)
+* [Layout scales](modules/layout.md)
+* [UI library](modules/layout.md)
 
 {% hint style="info" %}
 ### **Love Pollen? Try Satchel 🎒**
