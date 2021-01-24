@@ -32,5 +32,3 @@ Satchel is a lightweight library of CSS-in-JS utilities that makes development e
 **Get Satchel 👉** [**satchel.style**](https://satchel.style)\*\*\*\*
 {% endhint %}
 
-**Made with ❤️ by** [**Peppercorn Studio**](https://peppercorn.studio) **in 🥝**
-
