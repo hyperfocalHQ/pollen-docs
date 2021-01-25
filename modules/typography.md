@@ -25,7 +25,7 @@ Pollen provides a robust modular typography scale to encourage consistent typogr
 | `--scale-0` | `1rem` | `16px` |
 | `--scale-1` | `1.125rem` | `18px` |
 | `--scale-2` | `1.25rem` | `20px` |
-| `--scale-3` | `1.5rem` | `34px` |
+| `--scale-3` | `1.5rem` | `24px` |
 | `--scale-4` | `1.875rem` | `30px` |
 | `--scale-5` | `2.25rem` | `36px` |
 | `--scale-6` | `3rem` | `48px` |
