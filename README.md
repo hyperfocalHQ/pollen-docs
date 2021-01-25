@@ -4,7 +4,7 @@ description: Functional CSS for the future
 
 # Introducing Pollen
 
-Pollen is a collection of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) designed for rapid prototyping, consistent styling, and as a [utility-first](https://frontstuff.io/in-defense-of-utility-first-css) foundation for your own design systems.
+Pollen is a collection of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) designed for rapid prototyping, consistent styling, and as a [utility-first](https://frontstuff.io/in-defense-of-utility-first-css) foundation for your own design systems. 
 
 ### What it looks like
 
