@@ -4,7 +4,7 @@ description: Structural consistency
 
 # Layout
 
-### Size Scale
+## Size Scale
 
 | Property group | Applies to |
 | :--- | :--- |
@@ -56,7 +56,7 @@ section {
 | `--size-min` | `min-content` |
 | `--size-max` | `max-content` |
 
-### Widths
+## Widths
 
 | Property group | Applies to |
 | :--- | :--- |

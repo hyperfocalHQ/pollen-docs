@@ -1,8 +1,8 @@
 # Getting started
 
-Since Pollen is built on plain CSS variables, it works everywhere. There's no buildstep or environment requirements. It works in plain CSS, other frameworks, and CSS-in-JS. 
+Since Pollen is built on plain CSS variables, it works everywhere. There's no buildstep or environment requirements. It works in plain CSS, other frameworks, and CSS-in-JS.
 
-### Installation
+## Installation
 
 Install Pollen from NPM and include it in your project
 
@@ -14,7 +14,7 @@ npm i pollen-css
 import 'pollen-css';
 ```
 
-#### Alternatively include from a CDN
+### Alternatively include from a CDN
 
 You can also link Pollen's CSS directly from the Unpkg CDN
 
@@ -24,7 +24,7 @@ You can also link Pollen's CSS directly from the Unpkg CDN
 
 The entire library weighs **under** **1.5kb**, so there's no need to worry about how you bundle or optimise it.
 
-### Usage
+## Usage
 
 Once Pollen is included in your project, you can use its variables anywhere in your styles
 
@@ -41,9 +41,9 @@ Once Pollen is included in your project, you can use its variables anywhere in y
 }
 ```
 
-### Shimming IE
+## Shimming IE
 
-Pollen requires a small shim to work in Internet Explorer, as it doesn't support the CSS variables that the library is built on. 
+Pollen requires a small shim to work in Internet Explorer, as it doesn't support the CSS variables that the library is built on.
 
 Enable IE support with the included `shimmie` utility from `pollen-css/utils`
 
@@ -53,16 +53,16 @@ import { shimmie } from 'pollen-css/utils';
 shimmie();
 ```
 
-Shimmie will check for support, and if required  dynamically load and apply the excellent [`css-vars-ponfyill`](https://jhildenbiddle.github.io/css-vars-ponyfill/#/) shim with sane configuration.
+Shimmie will check for support, and if required dynamically load and apply the excellent [`css-vars-ponfyill`](https://jhildenbiddle.github.io/css-vars-ponyfill/#/) shim with sane configuration.
 
-### Editor Support
+## Editor Support
 
 For autocomplete support of all of Pollen's variables in VS Code:
 
 1. Install the [CSS Variable Autocomplete](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables) extension
 2. Add Pollen to the extensions lookup files in `.vscode/settings.json`
 
-```json
+```javascript
 {
   "cssVariables.lookupFiles": ["node_modules/pollen-css/pollen.css"]
 }

@@ -10,7 +10,7 @@ description: Foundations in type
 | :--- | :--- |
 | `--scale-*` | `font-size` |
 
-Pollen provides a robust modular typography scale to encourage consistent typography sizing across an interface with a logical rhythm. Sizes are set in `rem` units to support proper font scaling, and assume a `16px` root `font-size`.
+Pollen provides a robust modular typography scale to encourage consistent typography sizing across an interface. Sizes are set in `rem` units to support proper font scaling, and assume a `16px` root `font-size`.
 
 ```css
 .heading {

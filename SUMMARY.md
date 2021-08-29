@@ -9,7 +9,7 @@
 ## Modules
 
 * [Typography](modules/typography.md)
-* [Colors](modules/colors.md)
 * [Layout](modules/layout.md)
+* [Colors](modules/colors.md)
 * [UI](modules/ui.md)
 

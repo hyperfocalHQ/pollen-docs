@@ -4,11 +4,11 @@ description: Rapid visual prototyping
 
 # Colors
 
+Pollen comes with a robust color pallete to encourage consistency across a project. They're designed for rapid prototyping and to be extended as your project evolves. 
+
 | Property group | Applies to |
 | :--- | :--- |
 | `--color-*` | `color` , `background-color` |
-
-Pollen comes with a robust color pallete to encourage consistency across a project. Using variables like Pollen's ensures there is a single source of truth for colors.
 
 Each color has a family of shades ranging from `300` \(light\) to `700` \(dark\), as well as an extended greyscale. The unsuffixed color \(eg: `--color-red`\) in each family is an alias for median in that family \(eg: `--color-red-500`\).
 

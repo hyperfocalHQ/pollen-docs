@@ -1,20 +1,38 @@
 # Theming
 
-Pollen is built on [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--*), a new web specification that allows us to define custom CSS properties that can be used anywhere in your project. Since they are defined globally and represent a single source of truth, variables allow us to do things not previously possible in CSS.
+You can easily extend or overwrite any part of Pollen by defining your own global CSS variables in a `:root` pseudo-element. Pollen is in fact designed to be a foundation for your own design system.
 
-### Global responsiveness
+{% code title="variables.css" %}
+```css
+:root {
+  --font-sans: 'Inter', sans-serif;
+  --color-primary: var(--color-blue);
+  
+  /* More theming */
+}
+```
+{% endcode %}
 
-Pollen’s CSS variables can be changed inside media queries, to update their value across a project. Redefine a variable on `:root` in a media query. All instances of that variable will then update when the media query is triggered.
+{% code title="app.js" %}
+```javascript
+import 'pollen-css';
+import './variables.css';
+```
+{% endcode %}
+
+### Globally Responsive
+
+CSS variables can be changed inside media queries. And by redefining a variable on `:root` in a media query, that variable will be globally responsive.
 
 ```css
-@media (min-width: 45em) {
+@media (max-width: 45em) {
   :root {
-    --body-font-size: var(--scale-1);
+    --size-5: var(--size-4);
   }
 }
 ```
 
-### Interacting with JS
+### Updating with JS
 
 CSS variables are also accessible in JavaScript, which allows you to accomplish things that were previously very complicated, like dynamically applying style themes. By updating a few key variables based on user input, you can reskin an entire interface.
 
@@ -22,8 +40,8 @@ Update CSS variables in JS by using the `setProperty` method on the document roo
 
 ```javascript
 document.documentElement.style.setProperty(
-  `--font-family-sans`,
-  `'Garamond', serif`
+  `--color-primary`,
+  `#4299e1`
 );
 ```
 
