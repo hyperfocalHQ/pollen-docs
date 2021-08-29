@@ -61,7 +61,7 @@ You can override any variable in Pollen by redefining it. Variables can be redef
 
 ```css
 :root {
-  --font-family-sans: 'Inter', sans-serif;
+  --font-sans: 'Inter', sans-serif;
 }
 ```
 
