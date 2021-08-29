@@ -55,16 +55,6 @@ shimmie();
 
 Shimmie will check for support, and if required  dynamically load and apply the excellent [`css-vars-ponfyill`](https://jhildenbiddle.github.io/css-vars-ponyfill/#/) shim with sane configuration.
 
-### Customising Pollen
-
-You can override any variable in Pollen by redefining it. Variables can be redefined in any CSS selector, but to apply globally should be set on the `:root` pseudo element
-
-```css
-:root {
-  --font-sans: 'Inter', sans-serif;
-}
-```
-
 ### Editor Support
 
 For autocomplete support of all of Pollen's variables in VS Code:
