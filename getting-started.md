@@ -65,3 +65,18 @@ You can override any variable in Pollen by redefining it. Variables can be redef
 }
 ```
 
+### Editor Support
+
+For autocomplete support of all of Pollen's variables in VS Code:
+
+1. Install the [CSS Variable Autocomplete](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables) extension
+2. Add Pollen to the extensions lookup files in `.vscode/settings.json`
+
+```json
+{
+  "cssVariables.lookupFiles": ["node_modules/pollen-css/pollen.css"]
+}
+```
+
+Autocomplete will then be available for all properties. Begin typing the property name without `var(`, eg: `font-size: scale...` and intellisense will do the rest.
+
