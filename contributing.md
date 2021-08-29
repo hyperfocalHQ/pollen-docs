@@ -8,7 +8,7 @@ description: >-
 
 ### Spread the word
 
-The biggest way you can help with Pollen is simple — tell your friends about it! Open source projects live and die by their community, and Pollen is still young. [Tweet about it](https://twitter.com/intent/tweet?url=https%3A%2F%2Fpollen.style&text=Pollen%2C%20utility%20CSS%20for%20the%20future), [star it on Github](https://github.com/peppercornstudio/pollen/stargazers), and pass it around. I'd _really_ appreciate it. 
+The biggest way you can help with Pollen is simple — tell your friends about it! Open source projects live and die by their community, and Pollen is still young. [Tweet about it](https://twitter.com/intent/tweet?url=https%3A%2F%2Fpollen.style&text=Pollen%2C%20utility%20CSS%20for%20the%20future), [star it on Github](https://github.com/peppercornstudio/pollen/stargazers), and pass it around.
 
 ### Open an issue
 

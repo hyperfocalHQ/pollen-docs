@@ -29,16 +29,16 @@ Pollen provides a robust modular typography scale to encourage consistent typogr
 | `--scale-4` | `1.875rem` | `30px` |
 | `--scale-5` | `2.25rem` | `36px` |
 | `--scale-6` | `3rem` | `48px` |
-| `--scale-7` | `4rem` | `64px` |
+| `--scale-7` | `3.75rem` | `60px` |
 | `--scale-8` | `4.5rem` | `72px` |
 | `--scale-9` | `6rem` | `96px` |
-| `--scale-10` | `9rem` | `144px` |
+| `--scale-10` | `8rem` | `128px` |
 
 ### Font Families
 
 | Property group | Applies to |
 | :--- | :--- |
-| `--font-family-*` | `font-family` |
+| `--font-*` | `font-family` |
 
 Base font stacks as better alternatives to browser defaults, designed for rapid prototyping and to be overridden as your project grows.
 
@@ -58,7 +58,7 @@ body {
 
 | Property group | Applies to |
 | :--- | :--- |
-| `--font-weight-*` | `font-weight` |
+| `--font-*` | `font-weight` |
 
 Consistent font weights across an interface
 
@@ -83,7 +83,7 @@ Consistent font weights across an interface
 | :--- | :--- |
 | `--leading-*` | `line-height` |
 
-Encourage consistent line heights across an interface
+Encourage consistent line heights across an interface, applied as unitless values to scale with font size.
 
 ```css
 body {
@@ -94,11 +94,11 @@ body {
 | Property | Value |
 | :--- | :--- |
 | `--leading-none` | `1` |
-| `--leading-xsmall` | `1.25` |
-| `--leading-small` | `1.275` |
+| `--leading-xs` | `1.25` |
+| `--leading-sm` | `1.275` |
 | `--leading-normal` | `1.5` |
-| `--leading-large` | `1.625` |
-| `--leading-xlarge` | `2` |
+| `--leading-lg` | `1.625` |
+| `--leading-xl` | `2` |
 
 ### Tracking
 
@@ -122,8 +122,6 @@ Encourage consistent letter spacing across an interface, applied as `em` units r
 | `--tracking-1` | `0.025em` |
 | `--tracking-2` | `0.05em` |
 | `--tracking-3` | `0.1em` |
-| `--tracking-4` | `0.25em` |
-| `--tracking-5` | `0.5em` |
 
 ### Measure
 

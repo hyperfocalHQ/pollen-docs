@@ -26,13 +26,12 @@ The entire library weighs **under** **1.5kb**, so there's no need to worry about
 
 ### Usage
 
-Once Pollen is included in your project, you can use its variables _anywhere_ in your styles
+Once Pollen is included in your project, you can use its variables anywhere in your styles
 
 ```css
 .button {
   font: var(--font-sans);
-  padding: var(--spacing-1);
-  background: var(--color-blue);
+  padding: var(--size-1);
   border-radius: var(--radius-2);
   color: var(--color-primary);
 }
