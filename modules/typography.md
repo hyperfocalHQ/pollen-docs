@@ -50,9 +50,9 @@ body {
 
 | Property | Value |
 | :--- | :--- |
-| `--font-family-sans` | `system-ui,-apple-system,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue` |
-| `--font-family-serif` | `Georgia, Cambria, "Times New Roman", Times, serif` |
-| `--font-family-mono` | `Consolas, Menlo, Monaco, "Liberation Mono", monospace` |
+| `--font-sans` | `system-ui,-apple-system,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue` |
+| `--font-serif` | `Georgia, Cambria, "Times New Roman", Times, serif` |
+| `--font-mono` | `Consolas, Menlo, Monaco, "Liberation Mono", monospace` |
 
 ### Weights
 
@@ -70,12 +70,12 @@ Consistent font weights across an interface
 
 | Property | Value |
 | :--- | :--- |
-| `--font-weight-light` | `300` |
-| `--font-weight-regular` | `400` |
-| `--font-weight-medium` | `500` |
-| `--font-weight-semibold` | `600` |
-| `--font-weight-bold` | `700` |
-| `--font-weight-black` | `900` |
+| `--font-light` | `300` |
+| `--font-regular` | `400` |
+| `--font-medium` | `500` |
+| `--font-semibold` | `600` |
+| `--font-bold` | `700` |
+| `--font-black` | `900` |
 
 ### Leading
 

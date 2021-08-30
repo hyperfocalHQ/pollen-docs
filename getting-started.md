@@ -61,12 +61,18 @@ For autocomplete support of all of Pollen's variables in VS Code:
 
 1. Install the [CSS Variable Autocomplete](https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-css-variables) extension
 2. Add Pollen to the extensions lookup files in `.vscode/settings.json`
+3. If you've [extended Pollen](theming.md) make sure you also include your variables stylesheet
 
+{% code title=".vscode/settings.json" %}
 ```javascript
 {
-  "cssVariables.lookupFiles": ["node_modules/pollen-css/pollen.css"]
+  "cssVariables.lookupFiles": [
+    "node_modules/pollen-css/pollen.css",
+    "styles/variables.css" // Your theme file
+  ]
 }
 ```
+{% endcode %}
 
-Autocomplete will then be available for all properties. Begin typing the property name without `var(`, eg: `font-size: scale...` and intellisense will do the rest.
+Autocomplete will then be available for all properties. Begin typing the property name without `var`, eg: `font-size: scale...` and intellisense will do the rest.
 
