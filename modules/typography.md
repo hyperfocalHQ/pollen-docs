@@ -44,7 +44,7 @@ Base font stacks as better alternatives to browser defaults, designed for rapid 
 
 ```css
 body {
-  font-family: var(--font-family-sans);
+  font-family: var(--font-sans);
 }
 ```
 
@@ -64,7 +64,7 @@ Consistent font weights across an interface
 
 ```css
 .heading {
-  font-weight: var(--font-weight-bold)
+  font-weight: var(--font-bold)
 }
 ```
 
