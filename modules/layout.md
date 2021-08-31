@@ -73,16 +73,14 @@ Encourage consistent max-widths throughout an interface
 
 | Property | Value |
 | :--- | :--- |
-| `--width-1` | `320px` |
-| `--width-2` | `396px` |
-| `--width-3` | `448px` |
-| `--width-4` | `512px` |
-| `--width-5` | `576px` |
-| `--width-6` | `672px` |
-| `--width-7` | `768px` |
-| `--width-8` | `896px` |
-| `--width-9` | `1024px` |
-| `--width-10` | `1152px` |
-| `--width-11` | `1280px` |
-| `--width-12` | `1440px` |
-
+| `--width-xs` | `20rem` |
+| `--width-sm` | `24rem` |
+| `--width-md` | `28rem` |
+| `--width-lg` | `32rem` |
+| `--width-xl` | `36rem` |
+| `--width-2xl` | `42rem` |
+| `--width-3xl` | `48rem` |
+| `--width-4xl` | `56rem` |
+| `--width-5xl` | `64rem` |
+| `--width-6xl` | `72rem` |
+| `--width-7xl` | `80rem` |
