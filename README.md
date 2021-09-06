@@ -28,7 +28,7 @@ Pollen has no runtime, buildstep, class naming conventions, or framework depende
 * [Typography system](modules/typography.md)
 * [Color palette](modules/colors.md)
 * [Layout scales](modules/layout.md)
-* [UI library](modules/layout.md)
+* [UI library](modules/ui.md)
 
 ### Who's using Pollen
 
