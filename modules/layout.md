@@ -84,3 +84,4 @@ Encourage consistent max-widths throughout an interface
 | `--width-5xl` | `64rem` |
 | `--width-6xl` | `72rem` |
 | `--width-7xl` | `80rem` |
+
