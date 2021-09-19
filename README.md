@@ -17,7 +17,7 @@ Pollen has no runtime, buildstep, class naming conventions, or framework depende
   padding: var(--size-1);
   background: var(--color-blue);
   color: white;
-  border-radius: var(--radius-2);
+  border-radius: var(--radius);
   box-shadow: var(--elevation-1);
   transition: background 150ms var(--easing-standard);
 }
