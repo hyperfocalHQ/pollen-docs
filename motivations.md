@@ -30,5 +30,4 @@ Pollen is a functional library. It's pure CSS that works in any environment — 
 
 ### Performant
 
-The entire Pollen framework weighs **less than 1.5kb**. Pollen will never grow into a monolithic framework, and you don’t need to worry about stripping it out when moving from prototype to production.
-
+The entire Pollen framework weighs less than 1.3kb. Pollen will never grow into a monolithic framework, and you don’t need to worry about stripping it out when moving from prototype to production.

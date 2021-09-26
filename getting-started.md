@@ -22,7 +22,7 @@ You can also link Pollen's CSS directly from the Unpkg CDN
 <link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
 ```
 
-The entire library weighs **under** **1.5kb**, so there's no need to worry about how you bundle or optimise it.
+The entire library weighs under 1.3kb, so there's no need to worry about how you bundle or optimise it.
 
 ## Usage
 
@@ -30,10 +30,11 @@ Once Pollen is included in your project, you can use its variables anywhere in y
 
 ```css
 .button {
-  font: var(--font-sans);
-  padding: var(--size-1);
-  border-radius: var(--radius-2);
-  color: var(--color-primary);
+  font-family: var(--font-sans);
+  padding: var(--size-2) var(--size-3);
+  border-radius: var(--radius);
+  background: var(--color-primary);
+  color: white;
 }
 
 :root {
@@ -65,18 +66,19 @@ For autocomplete support of all of Pollen's variables in VS Code:
 4. If you're using CSS-in-JS make sure you add `javascript`/`javascriptreact`/`typescriptreact` file support to the extension's settings
 
 {% code title=".vscode/settings.json" %}
+
 ```javascript
 {
   "cssvar.files": [
     "./node_modules/pollen-css/pollen.css",
     "./styles/variables.css" // Your theme file
   ],
-  
+
   // CSS-in-JS support
-  "cssvar.extensions": ["css", "javascript", "typescriptreact"] 
+  "cssvar.extensions": ["css", "javascript", "typescriptreact"]
 }
 ```
+
 {% endcode %}
 
 Autocomplete will then be available for all properties. Intellisense will trigger simply with `--`, no need to also add `var(`.
-
