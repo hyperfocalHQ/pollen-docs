@@ -66,7 +66,6 @@ For autocomplete support of all of Pollen's variables in VS Code:
 4. If you're using CSS-in-JS make sure you add `javascript`/`javascriptreact`/`typescriptreact` file support to the extension's settings
 
 {% code title=".vscode/settings.json" %}
-
 ```javascript
 {
   "cssvar.files": [
@@ -78,7 +77,7 @@ For autocomplete support of all of Pollen's variables in VS Code:
   "cssvar.extensions": ["css", "javascript", "typescriptreact"]
 }
 ```
-
 {% endcode %}
 
 Autocomplete will then be available for all properties. Intellisense will trigger simply with `--`, no need to also add `var(`.
+
