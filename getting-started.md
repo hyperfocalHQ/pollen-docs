@@ -34,7 +34,7 @@ Once Pollen is included in your project, you can use its variables anywhere in y
 }
 ```
 
-## Shimming IE
+### Shimming IE
 
 Pollen requires a small shim to work in Internet Explorer 11 and below, as it doesn't support the CSS variables that the library is built on.
 

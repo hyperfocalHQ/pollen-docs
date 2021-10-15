@@ -54,7 +54,7 @@ body {
 | `--font-serif` | `Georgia, Cambria, "Times New Roman", Times, serif`                                 |
 | `--font-mono`  | `Consolas, Menlo, Monaco, "Liberation Mono", monospace`                             |
 
-### Weights
+## Weights
 
 | Property group | Applies to    |
 | -------------- | ------------- |
@@ -77,7 +77,7 @@ Consistent font weights across an interface
 | `--font-bold`     | `700` |
 | `--font-black`    | `900` |
 
-### Leading
+## Leading
 
 | Property group | Applies to    |
 | -------------- | ------------- |
@@ -100,7 +100,7 @@ body {
 | `--leading-lg`     | `1.625` |
 | `--leading-xl`     | `2`     |
 
-### Tracking
+## Tracking
 
 | Property group | Applies to       |
 | -------------- | ---------------- |
@@ -123,7 +123,7 @@ Encourage consistent letter spacing across an interface, applied as `em` units r
 | `--tracking-2`   | `0.05em`   |
 | `--tracking-3`   | `0.1em`    |
 
-### Measure
+## Measure
 
 | Property group | Applies to  |
 | -------------- | ----------- |
