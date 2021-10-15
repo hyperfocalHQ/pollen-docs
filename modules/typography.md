@@ -4,7 +4,7 @@ description: Foundations in type
 
 # Typography
 
-### Modular Scale
+## Modular Scale
 
 | Property group | Applies to  |
 | -------------- | ----------- |
@@ -34,7 +34,7 @@ Pollen provides a robust modular typography scale to encourage consistent typogr
 | `--scale-9`   | `6rem`     | `96px`        |
 | `--scale-10`  | `8rem`     | `128px`       |
 
-### Font Families
+## Font Families
 
 | Property group | Applies to    |
 | -------------- | ------------- |

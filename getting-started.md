@@ -2,7 +2,7 @@
 
 Since Pollen is built on plain CSS variables, it works everywhere. There's no buildstep, preprocessor, or environment requirements.
 
-### Installation
+## Installation & Usage
 
 Install Pollen from NPM and include it in your project
 
@@ -22,8 +22,6 @@ You can also link Pollen's CSS directly from the Unpkg CDN
 <link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
 ```
 
-### Usage
-
 Once Pollen is included in your project, you can use its variables anywhere in your styles
 
 ```css
@@ -36,7 +34,7 @@ Once Pollen is included in your project, you can use its variables anywhere in y
 }
 ```
 
-### Shimming IE
+## Shimming IE
 
 Pollen requires a small shim to work in Internet Explorer 11 and below, as it doesn't support the CSS variables that the library is built on.
 
@@ -50,9 +48,9 @@ shimmie();
 
 Shimmie will check for support, and if required dynamically load and apply the excellent [`css-vars-ponfyill`](https://jhildenbiddle.github.io/css-vars-ponyfill/#/) shim with sane configuration.
 
-### Editor Support
+## Editor Support
 
-#### VS Code
+### VS Code
 
 Enable intellisense autocompletion for Pollen in VS Code by installing the [CSS Var Complete](https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar) extension and adding Pollen's CSS to its settings in a `.vscode/settings.json` file in the root of your project, along with some optional additional configuration.
 
