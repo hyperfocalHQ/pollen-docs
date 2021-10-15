@@ -48,7 +48,7 @@ shimmie();
 
 Shimmie will check for support, and if required dynamically load and apply the excellent [`css-vars-ponfyill`](https://jhildenbiddle.github.io/css-vars-ponyfill/#/) shim with sane configuration.
 
-## Editor Support
+## Editor Integration
 
 ### VS Code
 
