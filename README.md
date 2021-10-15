@@ -1,14 +1,10 @@
----
-description: Functional CSS for the future
----
-
 # Introducing Pollen
 
-Pollen is a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--*) for rapid prototyping, consistent styling, and as a zero-runtime utility-first foundation for your own design systems. Heavily inspired by [TailwindCSS](https://tailwindcss.com).
+Pollen is a functional alternative to [Tailwind](https://tailwindcss.com) that doesn't overload class names or reinvent CSS. It's a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that encourages consistency and maintainability, as a utility-first foundation for your own design system.
 
 ## What it looks like
 
-Pollen has no runtime, buildstep, class naming conventions, or framework dependencies. It works in stylesheets, inline styles, and CSS-in-JS.
+Pollen's low-level variables can be used to build any design. It works anywhere and has no buildstep or class naming conventions. It's easily to extend and globally responsive, without introducing preprocessors or any new syntax.
 
 ```css
 .button {
@@ -23,13 +19,6 @@ Pollen has no runtime, buildstep, class naming conventions, or framework depende
 }
 ```
 
-## Modules
-
-* [Typography system](modules/typography.md)
-* [Color palette](modules/colors.md)
-* [Layout scales](modules/layout.md)
-* [UI library](modules/ui.md)
-
 ## Who's using Pollen
 
 Pollen is used in production by awesome brands in several large-scale websites and projects. Are you using Pollen? [Open an issue on Github](https://github.com/peppercornstudio/pollen/issues/new) to add your site to the list.
@@ -39,4 +28,3 @@ Pollen is used in production by awesome brands in several large-scale websites a
 * [Siesta Campers](https://www.siestacampers.com)
 * [Faethm](https://faethm.ai)
 * [Madeleine Ostoja](https://madeleineostoja.com)
-

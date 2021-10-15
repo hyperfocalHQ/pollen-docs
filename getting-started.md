@@ -1,6 +1,6 @@
 # Getting started
 
-Since Pollen is built on plain CSS variables, it works everywhere. There's no buildstep or environment requirements. It works in plain CSS, other frameworks, and CSS-in-JS.
+Since Pollen is built on plain CSS variables, it works everywhere. There's no buildstep, preprocessor, or environment requirements.
 
 ## Installation
 
@@ -14,15 +14,13 @@ npm i pollen-css
 import 'pollen-css';
 ```
 
-### Alternatively include from a CDN
+#### Alternatively include from a CDN
 
 You can also link Pollen's CSS directly from the Unpkg CDN
 
 ```markup
 <link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
 ```
-
-The entire library weighs under 1.3kb, so there's no need to worry about how you bundle or optimise it.
 
 ## Usage
 
@@ -36,15 +34,11 @@ Once Pollen is included in your project, you can use its variables anywhere in y
   background: var(--color-primary);
   color: white;
 }
-
-:root {
-  --color-primary: var(--color-blue);
-}
 ```
 
 ## Shimming IE
 
-Pollen requires a small shim to work in Internet Explorer, as it doesn't support the CSS variables that the library is built on.
+Pollen requires a small shim to work in Internet Explorer 11 and below, as it doesn't support the CSS variables that the library is built on.
 
 Enable IE support with the included `shimmie` utility from `pollen-css/utils`
 
@@ -58,26 +52,22 @@ Shimmie will check for support, and if required dynamically load and apply the e
 
 ## Editor Support
 
-For autocomplete support of all of Pollen's variables in VS Code:
+#### VS Code
 
-1. Install the [CSS Var Complete](https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar) extension
-2. Add Pollen to the extension's file settings in `.vscode/settings.json`
-3. If you've [extended Pollen](theming.md) make sure you also include your variables stylesheet
-4. If you're using CSS-in-JS make sure you add `javascript`/`javascriptreact`/`typescriptreact` file support to the extension's settings
+Enable intellisense autocompletion for Pollen in VS Code by installing the [CSS Var Complete](https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar) extension and adding Pollen's CSS to its settings in a `.vscode/settings.json` file in the root of your project, along with some optional additional configuration.
 
 {% code title=".vscode/settings.json" %}
 ```javascript
 {
+  // Add Pollen autocomplete
   "cssvar.files": [
     "./node_modules/pollen-css/pollen.css",
-    "./styles/variables.css" // Your theme file
+    // "./src/styles/my-custom-variables.css
   ],
-
-  // CSS-in-JS support
-  "cssvar.extensions": ["css", "javascript", "typescriptreact"]
+  // Use Pollen's inbuilt variable ordering
+  "cssvar.unstable": ["no_sort"],
+  // Add support for autocomplete in other file types
+  "cssvar.extensions": ["css", "html", "jsx", "tsx"]
 }
 ```
 {% endcode %}
-
-Autocomplete will then be available for all properties. Intellisense will trigger simply with `--`, no need to also add `var(`.
-
