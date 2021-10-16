@@ -1,6 +1,6 @@
 # Motivations
 
-Pollen is built on the belief that CSS libraries should enforce consistency, be standards-driven, composable, extensible,, unopinionated, functional, and highly performant.
+Pollen is built on the belief that CSS libraries should encourage consistency, be standards-driven, composable, extensible, unopinionated, functional, and highly performant.
 
 ### Consistency
 

@@ -6,11 +6,11 @@ description: Foundations in type
 
 ## Modular Scale
 
+Pollen provides a robust modular typography scale to encourage consistent typography sizing across an interface. Sizes are set in `rem` units to support proper font scaling, and assume a `16px` root `font-size`.
+
 | Property group | Applies to  |
 | -------------- | ----------- |
 | `--scale-*`    | `font-size` |
-
-Pollen provides a robust modular typography scale to encourage consistent typography sizing across an interface. Sizes are set in `rem` units to support proper font scaling, and assume a `16px` root `font-size`.
 
 ```css
 .heading {
@@ -36,11 +36,11 @@ Pollen provides a robust modular typography scale to encourage consistent typogr
 
 ## Font Families
 
+Base font stacks as better alternatives to browser defaults, designed for rapid prototyping and to be overridden as your project grows.
+
 | Property group | Applies to    |
 | -------------- | ------------- |
 | `--font-*`     | `font-family` |
-
-Base font stacks as better alternatives to browser defaults, designed for rapid prototyping and to be overridden as your project grows.
 
 ```css
 body {
@@ -56,11 +56,11 @@ body {
 
 ## Weights
 
+Consistent font weights across an interface
+
 | Property group | Applies to    |
 | -------------- | ------------- |
 | `--font-*`     | `font-weight` |
-
-Consistent font weights across an interface
 
 ```css
 .heading {
@@ -79,11 +79,11 @@ Consistent font weights across an interface
 
 ## Leading
 
+Encourage consistent line heights across an interface, applied as unitless values to scale with font size.
+
 | Property group | Applies to    |
 | -------------- | ------------- |
 | `--leading-*`  | `line-height` |
-
-Encourage consistent line heights across an interface, applied as unitless values to scale with font size.
 
 ```css
 body {
@@ -102,11 +102,11 @@ body {
 
 ## Tracking
 
+Encourage consistent letter spacing across an interface, applied as `em` units relative to the text's size
+
 | Property group | Applies to       |
 | -------------- | ---------------- |
 | `--tracking-*` | `letter-spacing` |
-
-Encourage consistent letter spacing across an interface, applied as `em` units relative to the text's size
 
 ```css
 .uppercase {
@@ -125,11 +125,11 @@ Encourage consistent letter spacing across an interface, applied as `em` units r
 
 ## Measure
 
+Max-widths optimised for legibility of large blocks of text, based on the font and font-size of content.
+
 | Property group | Applies to  |
 | -------------- | ----------- |
 | `--measure-*`  | `max-width` |
-
-Easy defaults for good legibility in large blocks of text, designed to result in pleasing text measures. Set as `em` units to be relative to the size of the text.
 
 ```css
 article {
