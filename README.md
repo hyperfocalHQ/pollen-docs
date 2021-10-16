@@ -4,7 +4,7 @@ description: The Tailwind alternative that doesn't reinvent CSS
 
 # Introducing Pollen
 
-Pollen is a standards-driven alternative to [Tailwind](https://tailwindcss.com) that doesn't reinvent CSS. It's a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that encourage consistency, maintainability, and rapid development. Use it from prototype to production, as a utility-first foundation for your own design system.
+Pollen is a standards-driven alternative to [Tailwind](https://tailwindcss.com). It's a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that encourage consistency, maintainability, and rapid development. Use it from prototype to production, as a utility-first foundation for your own design system.
 
 ### What it looks like
 
