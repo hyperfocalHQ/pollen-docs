@@ -55,7 +55,7 @@ Shimmie will check for support, and if required dynamically load and apply the e
 Enable intellisense autocompletion for Pollen in VS Code by installing the [CSS Var Complete](https://marketplace.visualstudio.com/items?itemName=phoenisx.cssvar) extension and adding Pollen's CSS in a `.vscode/settings.json` file in the root of your project, along with some optional additional configuration.
 
 {% code title=".vscode/settings.json" %}
-```javascript
+```json
 {
   // Add Pollen to CSS Var autocomplete
   "cssvar.files": [
@@ -63,7 +63,7 @@ Enable intellisense autocompletion for Pollen in VS Code by installing the [CSS 
     // "./src/styles/my-custom-variables.css
   ],
   // Use Pollen's inbuilt variable ordering
-  "cssvar.unstable": ["no_sort"],
+  "cssvar.disableSort": true,
   // Add support for autocomplete in other file types
   "cssvar.extensions": ["css", "html", "jsx", "tsx"]
 }
