@@ -55,9 +55,9 @@ section {
 | `--size-min`    | `min-content` |
 | `--size-max`    | `max-content` |
 
-## Widths
+## Container Widths
 
-Encourage consistent max-widths throughout an interface
+Encourage consistent max-widths for containers throughout an interface, based roughly on common device breakpoints
 
 | Property group | Applies to  |
 | -------------- | ----------- |
@@ -70,16 +70,10 @@ Encourage consistent max-widths throughout an interface
 }
 ```
 
-| Property      | Value    |
-| ------------- | -------- |
-| `--width-xs`  | `320px`  |
-| `--width-sm`  | `384px`  |
-| `--width-md`  | `448px`  |
-| `--width-lg`  | `512px`  |
-| `--width-xl`  | `576px`  |
-| `--width-2xl` | `672px`  |
-| `--width-3xl` | `768px`  |
-| `--width-4xl` | `896px`  |
-| `--width-5xl` | `1024px` |
-| `--width-6xl` | `1152px` |
-| `--width-7xl` | `1280px` |
+| Property     | Value    |
+| ------------ | -------- |
+| `--width-xs` | `480px`  |
+| `--width-sm` | `640px`  |
+| `--width-md` | `768px`  |
+| `--width-lg` | `1024px` |
+| `--width-xl` | `1280px` |

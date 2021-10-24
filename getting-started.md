@@ -1,6 +1,6 @@
 # Getting started
 
-Since Pollen is just a collection of CSS variables, it works everywhere without any configuration needed. There's no buildstep, preprocessor, or environment requirements.
+Since Pollen is a 1kb library of CSS variables, it works everywhere without any configuration needed. There's no buildstep, preprocessor, or environment requirements.
 
 ## Installation & Usage
 
@@ -28,17 +28,22 @@ Once Pollen is included in your project, you can use its variables anywhere in y
 .button {
   font-family: var(--font-sans);
   padding: var(--size-2) var(--size-3);
-  border-radius: var(--radius);
-  background: var(--color-primary);
-  color: white;
+  border-radius: var(--radius-md);
 }
+```
+
+### Addons
+
+Pollen comes with several optional [addons](getting-started.md#undefined) in addition to its core modules. Include them in your project by importing their CSS file from `pollen-css/addons/{addon}.css`
+
+```javascript
+import 'pollen-css'
+import 'pollen-css/addons/grid.css'
 ```
 
 ### IE Support
 
-Pollen requires a small shim to work in Internet Explorer 11 and below, as it doesn't support the CSS variables that the library is built on.
-
-Enable IE support with the included `shimmie` utility from `pollen-css/utils`
+Pollen requires a small shim to work in Internet Explorer 11 and below, as it doesn't support the CSS variables that the library is built on. Enable IE support with the included `shimmie` utility from `pollen-css/utils`
 
 ```javascript
 import { shimmie } from 'pollen-css/utils';
@@ -60,6 +65,7 @@ Enable intellisense autocompletion for Pollen in VS Code by installing the [CSS 
   // Add Pollen to CSS Var autocomplete
   "cssvar.files": [
     "./node_modules/pollen-css/pollen.css",
+    // "./node_modules/pollen-css/addons/grid.css",
     // "./src/styles/my-custom-variables.css
   ],
   // Use Pollen's inbuilt variable ordering

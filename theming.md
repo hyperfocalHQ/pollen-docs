@@ -1,12 +1,11 @@
 # Theming
 
-You can easily extend or overwrite any part of Pollen by defining your own CSS variables in a `:root` pseudo-element. Pollen is  designed to be a foundation for your own design system.
+You can easily extend or overwrite any part of Pollen by defining your own CSS variables in a `:root` pseudo-element. Pollen is designed to be a foundation for your own design system.
 
 {% code title="variables.css" %}
 ```css
 :root {
   --font-sans: 'Inter', sans-serif;
-  --color-primary: var(--color-blue);
 }
 ```
 {% endcode %}
@@ -43,7 +42,8 @@ document.documentElement.style.setProperty(`--color-primary`, `#4299e1`);
 You can also alias variables to other variables, this is useful for using a consistent property throughout your codebase that can be dynamically updated without losing meaning
 
 ```javascript
-// Update the page background for dark mode
-document.documentElement.style.setProperty(`--color-background`, `var(--color-black)`);
-document.documentElement.style.setProperty(`--color-text`, `var(--color-grey-100)`);
+function enableDarkMode() {
+  document.documentElement.style.setProperty(`--color-background`, `var(--color-black)`);
+  document.documentElement.style.setProperty(`--color-text`, `white`)
+}
 ```

@@ -63,14 +63,12 @@ Consistent edge radiuses throughout an interface.
 
 | Property        | Value    |
 | --------------- | -------- |
-| `--radius-none` | `0px`    |
-| `--radius-sm`   | `2px`    |
-| `--radius`      | `4px`    |
-| `--radius-md`   | `6px`    |
-| `--radius-lg`   | `8px`    |
-| `--radius-xl`   | `12px`   |
-| `--radius-2xl`  | `16px`   |
-| `--radius-3xl`  | `24px`   |
+| `--radius-xs`   | `3px`    |
+| `--radius-sm`   | `6px`    |
+| `--radius-md`   | `8px`    |
+| `--radius-lg`   | `12px`   |
+| `--radius-xl`   | `16px`   |
+| `--radius-100`  | `100%`   |
 | `--radius-full` | `9999px` |
 
 ## Layers
@@ -88,11 +86,12 @@ Consistent layering throughout an interface
 }
 ```
 
-| Property      | Value        |
-| ------------- | ------------ |
-| `--layer-1`   | `10`         |
-| `--layer-2`   | `20`         |
-| `--layer-3`   | `30`         |
-| `--layer-4`   | `40`         |
-| `--layer-5`   | `50`         |
-| `--layer-top` | `2147483647` |
+| Property        | Value        |
+| --------------- | ------------ |
+| `--layer-below` | `-1`         |
+| `--layer-1`     | `10`         |
+| `--layer-2`     | `20`         |
+| `--layer-3`     | `30`         |
+| `--layer-4`     | `40`         |
+| `--layer-5`     | `50`         |
+| `--layer-top`   | `2147483647` |

@@ -22,7 +22,7 @@ CSS libraries shouldn’t be constricting or add bloat, they should be a foundat
 
 ### Unopinionated
 
-Pollen does not impose a design language or theme. It is a set of style-agnostic tools that can be composed and extended to form your own custom UI. 
+Pollen does not impose a design language or theme. It is a set of style-agnostic tools that can be composed and extended to form your own custom UI.&#x20;
 
 ### Functional
 
@@ -30,4 +30,4 @@ Pollen is a functional library. It's pure CSS that works in any environment — 
 
 ### Performant
 
-The entire Pollen framework weighs less than 1.3kb. Pollen will never grow into a monolithic framework, and you don’t need to worry about stripping it out when moving from prototype to production.
+The entire core Pollen framework weighs less than 1kb. Pollen will never grow into a monolithic framework, and you don’t need to worry about stripping it out when moving from prototype to production.

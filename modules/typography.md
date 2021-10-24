@@ -68,78 +68,80 @@ Consistent font weights across an interface
 }
 ```
 
-| Property          | Value |
-| ----------------- | ----- |
-| `--font-light`    | `300` |
-| `--font-regular`  | `400` |
-| `--font-medium`   | `500` |
-| `--font-semibold` | `600` |
-| `--font-bold`     | `700` |
-| `--font-black`    | `900` |
+| Property           | Value |
+| ------------------ | ----- |
+| `--font-light`     | `300` |
+| `--font-regular`   | `400` |
+| `--font-medium`    | `500` |
+| `--font-semibold`  | `600` |
+| `--font-bold`      | `700` |
+| `--font-extrabold` | `800` |
+| `--font-black`     | `900` |
 
-## Leading
+## Line Height
 
 Encourage consistent line heights across an interface, applied as unitless values to scale with font size.
 
 | Property group | Applies to    |
 | -------------- | ------------- |
-| `--leading-*`  | `line-height` |
+| `--line-*`     | `line-height` |
 
 ```css
 body {
-  line-height: var(--leading-normal);
+  line-height: var(--line-md);
 }
 ```
 
-| Property           | Value   |
-| ------------------ | ------- |
-| `--leading-none`   | `1`     |
-| `--leading-xs`     | `1.25`  |
-| `--leading-sm`     | `1.275` |
-| `--leading-normal` | `1.5`   |
-| `--leading-lg`     | `1.625` |
-| `--leading-xl`     | `2`     |
+| Property      | Value   |
+| ------------- | ------- |
+| `--line-none` | `1`     |
+| `--line-xs`   | `1.25`  |
+| `--line-sm`   | `1.275` |
+| `--line-md`   | `1.5`   |
+| `--line-lg`   | `1.625` |
+| `--line-xl`   | `2`     |
 
-## Tracking
+## Letter Spacing
 
 Encourage consistent letter spacing across an interface, applied as `em` units relative to the text's size
 
 | Property group | Applies to       |
 | -------------- | ---------------- |
-| `--tracking-*` | `letter-spacing` |
+| `--letter-*`   | `letter-spacing` |
 
 ```css
 .uppercase {
-  letter-spacing: var(--tracking-00);
+  letter-spacing: var(--letter-xs);
 }
 ```
 
-| Property         | Value      |
-| ---------------- | ---------- |
-| `--tracking-000` | `-0.05em`  |
-| `--tracking-00`  | `-0.025em` |
-| `--tracking-0`   | `0`        |
-| `--tracking-1`   | `0.025em`  |
-| `--tracking-2`   | `0.05em`   |
-| `--tracking-3`   | `0.1em`    |
+| Property        | Value      |
+| --------------- | ---------- |
+| `--letter-xs`   | `-0.05em`  |
+| `--letter-sm`   | `-0.025em` |
+| `--letter-none` | `0`        |
+| `--letter-lg`   | `0.025em`  |
+| `--letter-xl`   | `0.05em`   |
 
-## Measure
+## Prose Width
 
 Max-widths optimised for legibility of large blocks of text, based on the font and font-size of content.
 
 | Property group | Applies to  |
 | -------------- | ----------- |
-| `--measure-*`  | `max-width` |
+| `--prose-*`    | `max-width` |
 
 ```css
 article {
-  max-width: var(--measure-normal);
+  max-width: var(--prose-normal);
   margin: 0 auto;
 }
 ```
 
-| Property           | Value  | Measure       |
-| ------------------ | ------ | ------------- |
-| `--measure-narrow` | `45ch` | 45 characters |
-| `--measure-normal` | `65ch` | 65 characters |
-| `--measure-wide`   | `80ch` | 80 characters |
+| Property     | Value  | Measure    |
+| ------------ | ------ | ---------- |
+| `--prose-xs` | `45ch` | 45 letters |
+| `--prose-sm` | `55ch` | 55 letters |
+| `--prose-md` | `65ch` | 65 letters |
+| `--prose-lg` | `75ch` | 75 letters |
+| `--prose-xl` | `85ch` | 85 letters |

@@ -6,10 +6,13 @@
 * [Theming](theming.md)
 * [Contributing](contributing.md)
 
-## Modules
+## Core Modules <a href="modules" id="modules"></a>
 
 * [Typography](modules/typography.md)
 * [Layout](modules/layout.md)
-* [Colors](modules/colors.md)
 * [UI](modules/ui.md)
 
+## Addons
+
+* [Colors](addons/colors.md)
+* [Grid](addons/grid.md)
