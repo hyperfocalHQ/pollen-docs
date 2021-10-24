@@ -4,6 +4,30 @@ description: Consistency across UI and motion
 
 # UI
 
+## Radius
+
+Consistent edge radiuses throughout an interface.
+
+| Property group | Applies to      |
+| -------------- | --------------- |
+| `--radius-*`   | `border-radius` |
+
+```css
+.button {
+  border-radius: var(--radius);
+}
+```
+
+| Property        | Value    |
+| --------------- | -------- |
+| `--radius-xs`   | `3px`    |
+| `--radius-sm`   | `6px`    |
+| `--radius-md`   | `8px`    |
+| `--radius-lg`   | `12px`   |
+| `--radius-xl`   | `16px`   |
+| `--radius-100`  | `100%`   |
+| `--radius-full` | `9999px` |
+
 ## Elevation
 
 Box shadows for creating realistic elevation in 3d space.
@@ -46,30 +70,6 @@ Easing functions for realistic movement in transitions and animations. Inspired 
 | `--easing-standard`   | `cubic-bezier(0.4, 0, 0.2, 1)` |
 | `--easing-accelerate` | `cubic-bezier(0.4, 0, 1, 1)`   |
 | `--easing-decelerate` | `cubic-bezier(0, 0, 0.2, 1)`   |
-
-## Radius
-
-Consistent edge radiuses throughout an interface.
-
-| Property group | Applies to      |
-| -------------- | --------------- |
-| `--radius-*`   | `border-radius` |
-
-```css
-.button {
-  border-radius: var(--radius);
-}
-```
-
-| Property        | Value    |
-| --------------- | -------- |
-| `--radius-xs`   | `3px`    |
-| `--radius-sm`   | `6px`    |
-| `--radius-md`   | `8px`    |
-| `--radius-lg`   | `12px`   |
-| `--radius-xl`   | `16px`   |
-| `--radius-100`  | `100%`   |
-| `--radius-full` | `9999px` |
 
 ## Layers
 
