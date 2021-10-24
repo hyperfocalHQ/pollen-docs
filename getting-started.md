@@ -1,6 +1,6 @@
 # Getting started
 
-Since Pollen is a 1kb library of CSS variables, it works everywhere without any configuration needed. There's no buildstep, preprocessor, or environment requirements.
+Since Pollen is just CSS variables, it works everywhere without any configuration needed. There's no buildstep, preprocessor, or environment requirements. It weighs less than 1kb.
 
 ## Installation & Usage
 
