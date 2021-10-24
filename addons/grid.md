@@ -26,17 +26,17 @@ Give all children of the grid a `--page-grid-main` column value (equal to `2/3`)
 
 | Property           | Applies to              |
 | ------------------ | ----------------------- |
-| `--page-grid`      | `grid-template-columns` |
-| `--page-grid-main` | `grid-column`           |
+| `--grid-page`      | `grid-template-columns` |
+| `--grid-page-main` | `grid-column`           |
 
 ```css
 .page {
   display: grid;
-  grid-template-column: var(--page-grid);
+  grid-template-column: var(--grid-page);
 }
 
 .page > * {
-  grid-column: var(--page-grid-main);
+  grid-column: var(--grid-page-main);
 }
 
 .page > .fullwidth {
@@ -50,13 +50,13 @@ Each aspect of the page grid is configurable with CSS variables. Set them either
 
 | Property             | Default           | Description                                                          |
 | -------------------- | ----------------- | -------------------------------------------------------------------- |
-| `--page-grid-width`  | `var(--width-xl)` | Max width of the main content area                                   |
-| `--page-grid-gutter` | `5vw`             | Width of the page gutters until the content area max with is reached |
+| `--grid-page-width`  | `var(--width-xl)` | Max width of the main content area                                   |
+| `--grid-page-gutter` | `5vw`             | Width of the page gutters until the content area max with is reached |
 
 ```css
 :root {
- --page-grid-gutter: var(--size-10);
- --page-grid-width: var(--width-lg);
+ --grid-page-gutter: var(--size-10);
+ --grid-page-width: var(--width-lg);
  }
 ```
 
