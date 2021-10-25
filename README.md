@@ -1,5 +1,5 @@
 ---
-description: The Tailwind alternative that doesn't reinvent CSS
+description: Utility-first CSS for the future
 ---
 
 # Introducing Pollen
