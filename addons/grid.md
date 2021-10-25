@@ -32,7 +32,7 @@ Give all children of the grid a `--grid-page-main` column value (equal to `2/3`)
 ```css
 .page {
   display: grid;
-  grid-template-column: var(--grid-page);
+  grid-template-columns: var(--grid-page);
 }
 
 .page > * {
