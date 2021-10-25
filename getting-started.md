@@ -24,6 +24,8 @@ You can also link Pollen's CSS directly from the Unpkg CDN
 
 Once Pollen is included in your project, you can use its variables anywhere in your styles
 
+{% tabs %}
+{% tab title="CSS" %}
 ```css
 .button {
   font-family: var(--font-sans);
@@ -31,6 +33,39 @@ Once Pollen is included in your project, you can use its variables anywhere in y
   border-radius: var(--radius-md);
 }
 ```
+{% endtab %}
+
+{% tab title="CSS-in-JS" %}
+```jsx
+const Button = styled.button`
+  font-family: var(--font-sans);
+  padding: var(--size-2) var(--size-3);
+  border-radius: var(--radius-md);
+`
+```
+{% endtab %}
+
+{% tab title="Inline Styles" %}
+```markup
+<button style="font-family: var(--font-sans); padding: var(--size-2) var(--size-3); border-radius: var(--radius-md);">
+  Button
+</button>
+```
+{% endtab %}
+
+{% tab title="Object styles" %}
+```jsx
+<button styles={{ 
+  fontFamily: 'var(--font-sans)',
+  padding: 'var(--size-2) var(--size-3)',
+  borderRadius: 'var(--radius-md)'
+}}>
+  Button
+</button>
+  
+```
+{% endtab %}
+{% endtabs %}
 
 ### Addons
 
