@@ -22,7 +22,7 @@ import 'pollen-css/addons/grid.css';
 
 A configurable grid designed to be used for page containers, with a main center column for content and gutters on each side. The main center column will expand until it reaches a max-width, at which point it will remain constrained and centered at that width.&#x20;
 
-Give all children of the grid a `--page-grid-main` column value (equal to `2/3`) to place them in the main content area. Easily "break out" of the page grid for full-width panels by giving a child a `1 / -1` column placement
+Give all children of the grid a `--grid-page-main` column value (equal to `2/3`) to place them in the main content area. Easily "break out" of the page grid for full-width panels by giving a child a `1 / -1` column placement
 
 | Property           | Applies to              |
 | ------------------ | ----------------------- |
