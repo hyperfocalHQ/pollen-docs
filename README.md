@@ -4,7 +4,7 @@ description: Utility-first CSS for the future
 
 # Introducing Pollen
 
-Pollen is a standards-driven alternative to [Tailwind](https://tailwindcss.com). It provides a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that encourage consistency, maintainability, and rapid development. Use it from prototype to production, as a utility-first foundation for your own design system.
+Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](https://tailwindcss.com). It provides a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that encourage consistency, maintainability, and rapid development. Use it from prototype to production, as a utility-first foundation for your own design system.
 
 ### What it looks like
 
