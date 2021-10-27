@@ -4,20 +4,24 @@ description: Utility-first CSS for the future
 
 # Introducing Pollen
 
-Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](https://tailwindcss.com). It provides a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that encourage consistency, maintainability, and rapid development. Use it from prototype to production, as a utility-first foundation for your own design system.
+Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](https://tailwindcss.com). It provides a library of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that can be used anywhere. It's designed to encourage consistency, maintainability, and rapid development.
 
 ### What it looks like
 
-Pollen's low-level variables can be used to build any design. They work anywhere and don't require a buildstep or class naming conventions. They're easy to extend and globally responsive, without introducing preprocessors or new syntax.
-
+Pollen's low-level variables can be used to build any design. They don't require a buildstep or class naming conventions. They're easy to extend and globally responsive, without introducing preprocessors or new syntax.
 
 {% tabs %}
 {% tab title="CSS" %}
 ```css
 .button {
-  font-family: var(--font-sans);
-  padding: var(--size-2) var(--size-3);
-  border-radius: var(--radius-md);
+   font-family: var(--font-sans);
+   font-size: var(--scale-00);
+   font-weight: var(--font-medium); 
+   line-height: var(--line-none);
+   padding: var(--size-3) var(--size-5);
+   background: var(--color-blue);
+   border-radius: var(--radius-xs);
+   color: white;
 }
 ```
 {% endtab %}
@@ -25,16 +29,21 @@ Pollen's low-level variables can be used to build any design. They work anywhere
 {% tab title="CSS-in-JS" %}
 ```jsx
 const Button = styled.button`
-  font-family: var(--font-sans);
-  padding: var(--size-2) var(--size-3);
-  border-radius: var(--radius-md);
+   font-family: var(--font-sans);
+   font-size: var(--scale-00);
+   font-weight: var(--font-medium); 
+   line-height: var(--line-none);
+   padding: var(--size-3) var(--size-5);
+   background: var(--color-blue);
+   border-radius: var(--radius-xs);
+   color: white;
 `
 ```
 {% endtab %}
 
 {% tab title="Inline Styles" %}
 ```markup
-<button style="font-family: var(--font-sans); padding: var(--size-2) var(--size-3); border-radius: var(--radius-md);">
+<button style="font-family: var(--font-sans); font-size: var(--scale-00); font-weight: var(--font-medium);  line-height: var(--line-none); padding: var(--size-3) var(--size-5); background: var(--color-blue); border-radius: var(--radius-xs); color: white;">
   Button
 </button>
 ```
@@ -43,9 +52,14 @@ const Button = styled.button`
 {% tab title="Object styles" %}
 ```jsx
 <button styles={{ 
-  fontFamily: 'var(--font-sans)',
-  padding: 'var(--size-2) var(--size-3)',
-  borderRadius: 'var(--radius-md)'
+   fontFamily: 'var(--font-sans)',
+   fontSize: 'var(--scale-00)',
+   fontWeight: 'var(--font-medium)',
+   lineHeight: 'var(--line-none)',
+   padding: 'var(--size-3) var(--size-5)',
+   background: 'var(--color-blue)',
+   borderRadius: 'var(--radius-xs)'
+   color: 'white'
 }}>
   Button
 </button>
