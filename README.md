@@ -10,6 +10,50 @@ Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](h
 
 Pollen's low-level variables can be used to build any design. They work anywhere and don't require a buildstep or class naming conventions. They're easy to extend and globally responsive, without introducing preprocessors or new syntax.
 
+
+{% tabs %}
+{% tab title="CSS" %}
+```css
+.button {
+  font-family: var(--font-sans);
+  padding: var(--size-2) var(--size-3);
+  border-radius: var(--radius-md);
+}
+```
+{% endtab %}
+
+{% tab title="CSS-in-JS" %}
+```jsx
+const Button = styled.button`
+  font-family: var(--font-sans);
+  padding: var(--size-2) var(--size-3);
+  border-radius: var(--radius-md);
+`
+```
+{% endtab %}
+
+{% tab title="Inline Styles" %}
+```markup
+<button style="font-family: var(--font-sans); padding: var(--size-2) var(--size-3); border-radius: var(--radius-md);">
+  Button
+</button>
+```
+{% endtab %}
+
+{% tab title="Object styles" %}
+```jsx
+<button styles={{ 
+  fontFamily: 'var(--font-sans)',
+  padding: 'var(--size-2) var(--size-3)',
+  borderRadius: 'var(--radius-md)'
+}}>
+  Button
+</button>
+  
+```
+{% endtab %}
+{% endtabs %}
+
 {% embed url="https://codepen.io/madeleineostoja/pen/LYjGjGa" %}
 
 ## Who's using Pollen
