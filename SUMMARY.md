@@ -14,5 +14,5 @@
 
 ## Addons
 
-* [Colors](addons/colors.md)
 * [Grid](addons/grid.md)
+* [Colors](addons/colors.md)
