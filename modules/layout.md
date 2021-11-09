@@ -12,7 +12,7 @@ Encourage consistent spacing throughout an interface. Pollen's size scale is pro
 | -------------- | ---------------------------------------------------------------------- |
 | `--size-*`     | Any size-related property (`margin`, `padding`, `width`,`height`, etc) |
 
-![](../.gitbook/assets/izes.svg)
+![](<../.gitbook/assets/Sizes (1).svg>)
 
 ```css
 section {
