@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Introducing Pollen](README.md)
 * [Getting started](getting-started.md)
 * [Motivations](motivations.md)
 * [Theming](theming.md)
