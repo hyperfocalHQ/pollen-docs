@@ -1,10 +1,10 @@
 ---
 description: Utility-first CSS for the future
+cover: .gitbook/assets/cover wide.jpg
+coverY: 19.899888765294783
 ---
 
-# Introducing Pollen
-
-![](.gitbook/assets/cover.svg)
+# Introduction
 
 Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](https://tailwindcss.com). It provides a collection of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that can be used anywhere to encourage consistency, maintainability, and rapid development.
 
