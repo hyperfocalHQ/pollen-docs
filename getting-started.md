@@ -54,7 +54,6 @@ Enable intellisense autocompletion for Pollen in VS Code by installing the [CSS 
 {% code title=".vscode/settings.json" %}
 ```json
 {
-  // Add Pollen to CSS Var autocomplete
   "cssvar.files": [
     "./node_modules/pollen-css/pollen.css",
     // "./node_modules/pollen-css/addons/grid.css",
