@@ -12,6 +12,8 @@ Pollen provides a robust modular typography scale to encourage consistent typogr
 | -------------- | ----------- |
 | `--scale-*`    | `font-size` |
 
+![](<../.gitbook/assets/modular scale 2.svg>)
+
 ```css
 .heading {
   font-size: var(--scale-4);

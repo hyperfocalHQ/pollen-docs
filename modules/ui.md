@@ -12,6 +12,8 @@ Consistent edge radiuses throughout an interface.
 | -------------- | --------------- |
 | `--radius-*`   | `border-radius` |
 
+![](../.gitbook/assets/borders.svg)
+
 ```css
 .button {
   border-radius: var(--radius);
@@ -35,6 +37,8 @@ Box shadows for creating realistic elevation in 3d space.
 | Property group  | Applies to   |
 | --------------- | ------------ |
 | `--elevation-*` | `box-shadow` |
+
+![](../.gitbook/assets/Shadows.png)
 
 ```css
 .card {

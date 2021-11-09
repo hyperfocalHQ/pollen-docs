@@ -4,6 +4,8 @@ description: Rapid visual prototyping
 
 # Colors
 
+![](../.gitbook/assets/Colors.png)
+
 Pollen comes with an optional colour palette to encourage consistency across a project. It's designed for rapid prototyping as a better alternative to browser defaults, and to be extended as your project evolves. Add it to your project by importing its CSS file
 
 {% code title="With javascript" %}

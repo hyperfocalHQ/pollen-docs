@@ -12,6 +12,8 @@ Encourage consistent spacing throughout an interface. Pollen's size scale is pro
 | -------------- | ---------------------------------------------------------------------- |
 | `--size-*`     | Any size-related property (`margin`, `padding`, `width`,`height`, etc) |
 
+![](../.gitbook/assets/izes.svg)
+
 ```css
 section {
   margin-top: var(--size-5);
@@ -62,6 +64,8 @@ Encourage consistent max-widths for containers throughout an interface, based ro
 | Property group | Applies to  |
 | -------------- | ----------- |
 | `--width-*`    | `max-width` |
+
+![](../.gitbook/assets/containers.svg)
 
 ```css
 .page-container {

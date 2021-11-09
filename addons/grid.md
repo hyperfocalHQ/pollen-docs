@@ -29,6 +29,8 @@ Give all children of the grid a `--grid-page-main` column value (equal to `2/3`)
 | `--grid-page`      | `grid-template-columns` |
 | `--grid-page-main` | `grid-column`           |
 
+![](<../.gitbook/assets/page grid.svg>)
+
 ```css
 .page {
   display: grid;
@@ -67,6 +69,8 @@ Helpers for quickly setting common grid templates
 | Property Group | Applies to                                       |
 | -------------- | ------------------------------------------------ |
 | `--grid-`      | `grid-template-columns` and `grid-template-rows` |
+
+![](<../.gitbook/assets/grid compact.svg>)
 
 ```css
 .grid {
