@@ -30,30 +30,6 @@ Consistent edge radiuses throughout an interface.
 | `--radius-100`  | `100%`   |
 | `--radius-full` | `9999px` |
 
-## Blur
-
-Backdrop blur effects for giving a sense of depth to an interface
-
-|            | Applies to        |
-| ---------- | ----------------- |
-| `--blur-*` | `backdrop-filter` |
-
-![](<../.gitbook/assets/blur (1).jpg>)
-
-```css
-.overlay {
-  backdrop-filter: var(--blur-md);
-}
-```
-
-| Property    | Value        |
-| ----------- | ------------ |
-| `--blur-xs` | `blur(4px)`  |
-| `--blur-sm` | `blur(8px)`  |
-| `--blur-md` | `blur(16px`) |
-| `--blur-lg` | `blur(24px)` |
-| `--blur-xl` | `blur(40px)` |
-
 ## Elevation
 
 Box shadows for creating realistic elevation in 3d space.
@@ -78,6 +54,30 @@ Box shadows for creating realistic elevation in 3d space.
 | `--elevation-4` | `0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)`   |
 | `--elevation-5` | `0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)` |
 | `--elevation-6` | `0 25px 50px -12px rgba(0, 0, 0, 0.25)`                                     |
+
+## Blur
+
+Backdrop blur effects for giving a sense of depth to an interface
+
+|            | Applies to        |
+| ---------- | ----------------- |
+| `--blur-*` | `backdrop-filter` |
+
+![](<../.gitbook/assets/blur (1).jpg>)
+
+```css
+.overlay {
+  backdrop-filter: var(--blur-md);
+}
+```
+
+| Property    | Value        |
+| ----------- | ------------ |
+| `--blur-xs` | `blur(4px)`  |
+| `--blur-sm` | `blur(8px)`  |
+| `--blur-md` | `blur(16px`) |
+| `--blur-lg` | `blur(24px)` |
+| `--blur-xl` | `blur(40px)` |
 
 ## Easing
 
