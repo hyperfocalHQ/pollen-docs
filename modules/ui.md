@@ -30,6 +30,30 @@ Consistent edge radiuses throughout an interface.
 | `--radius-100`  | `100%`   |
 | `--radius-full` | `9999px` |
 
+## Blur
+
+Backdrop blur effects for giving a sense of depth to an interface
+
+|            | Applies to        |
+| ---------- | ----------------- |
+| `--blur-*` | `backdrop-filter` |
+
+![](<../.gitbook/assets/blur (1).jpg>)
+
+```css
+.overlay {
+  backdrop-filter: var(--blur-md);
+}
+```
+
+| Property    | Value        |
+| ----------- | ------------ |
+| `--blur-xs` | `blur(4px)`  |
+| `--blur-sm` | `blur(8px)`  |
+| `--blur-md` | `blur(16px`) |
+| `--blur-lg` | `blur(24px)` |
+| `--blur-xl` | `blur(40px)` |
+
 ## Elevation
 
 Box shadows for creating realistic elevation in 3d space.
