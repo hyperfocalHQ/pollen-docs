@@ -45,14 +45,6 @@ const Button = styled.button`
 ```
 {% endtab %}
 
-{% tab title="Inline Styles" %}
-```markup
-<button style="font-family: var(--font-sans); font-size: var(--scale-00); font-weight: var(--font-medium);  line-height: var(--line-none); padding: var(--size-3) var(--size-5); background: var(--color-blue); border-radius: var(--radius-xs); color: white;">
-  Button
-</button>
-```
-{% endtab %}
-
 {% tab title="Object styles" %}
 ```jsx
 <button styles={{ 
@@ -68,6 +60,14 @@ const Button = styled.button`
   Button
 </button>
   
+```
+{% endtab %}
+
+{% tab title="Inline Styles" %}
+```markup
+<button style="font-family: var(--font-sans); font-size: var(--scale-00); font-weight: var(--font-medium);  line-height: var(--line-none); padding: var(--size-3) var(--size-5); background: var(--color-blue); border-radius: var(--radius-xs); color: white;">
+  Button
+</button>
 ```
 {% endtab %}
 {% endtabs %}
