@@ -78,7 +78,7 @@ const Button = styled.button`
 
 Pollen is used in production by awesome brands and individuals in projects from small to large-scale. Are you using Pollen? [Open an issue on Github](https://github.com/peppercornstudio/pollen/issues/new) to add your site to the list.
 
-![Corellium](.gitbook/assets/corellium.png)
+![Corellium](.gitbook/assets/corellium.png) ![Bokeh](<.gitbook/assets/Screen Shot 2021-11-14 at 11.27.34 AM.png>)
 
 ![Inventia](.gitbook/assets/inventia.png) ![Siesta Campers](.gitbook/assets/siestacampers.png)
 
