@@ -4,23 +4,21 @@ description: The Grid System
 
 # Grid
 
-Pollen comes with an optional set of helpers for creating and maintaining CSS grids in a project. Add it to your project by importing its CSS file
+Pollen comes with an optional set of helpers for creating and maintaining CSS grids in a project. Add it to your project by enabling the `grid` addon in our `pollen.config.js`. Read more about creating a custom Pollen bundle in [configuration](../basics/configuration/ "mention")
 
-{% code title="With javascript" %}
+{% code title="pollen.config.js" %}
 ```javascript
-import 'pollen-css/addons/grid.css';
-```
-{% endcode %}
-
-{% code title="From Unpkg CDN" %}
-```markup
-<link rel="stylesheet" href="https://unpkg.com/pollen-css/addons/grid.css" />
+module.exports = {
+  modules: {
+    grid: true
+  }
+}
 ```
 {% endcode %}
 
 ## Page Grid
 
-A configurable grid designed to be used for page containers, with a main center column for content and gutters on each side. The main center column will expand until it reaches a max-width, at which point it will remain constrained and centered at that width.&#x20;
+A configurable grid designed to be used for page containers, with a main center column for content and gutters on each side. The main center column will expand until it reaches a max-width, at which point it will remain constrained and centered at that width.
 
 Give all children of the grid a `--grid-page-main` column value (equal to `2/3`) to place them in the main content area. Easily "break out" of the page grid for full-width panels by giving a child a `1 / -1` column placement
 

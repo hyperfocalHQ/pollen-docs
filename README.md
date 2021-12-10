@@ -8,9 +8,13 @@ coverY: 19.899888765294783
 
 ![](<.gitbook/assets/cover wide.jpg>)
 
+Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](https://tailwindcss.com). It generates a configurable collection of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that can be used anywhere to encourage consistency, maintainability, and rapid development. Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.com).
+
 Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](https://tailwindcss.com). It provides a collection of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that can be used anywhere to encourage consistency, maintainability, and rapid development. Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.com).
 
 ### What it looks like
+
+Pollen's low-level variables can be used to build any design. They're easy to customise and extend, and they're globally responsive. They don't require preprocessors, class naming conventions, or any new non-standard syntax
 
 Pollen's low-level variables can be used to build any design. They don't require a buildstep or class naming conventions. They're easy to extend and globally responsive, without introducing preprocessors or new syntax.
 
@@ -75,6 +79,8 @@ const Button = styled.button`
 {% embed url="https://codepen.io/madeleineostoja/pen/LYjGjGa" %}
 
 ## Who's using Pollen
+
+Pollen is used extensively in production and actively maintained by the photo nerds [Bokeh](https://heybokeh.com). It's also used by many other awesome teams in projects from small to large-scale. Are you using Pollen? [Open an issue on Github](https://github.com/peppercornstudio/pollen/issues/new) to add your site to the list.
 
 Pollen is used in production by awesome brands and individuals in projects from small to large-scale. Are you using Pollen? [Open an issue on Github](https://github.com/peppercornstudio/pollen/issues/new) to add your site to the list.
 

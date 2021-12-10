@@ -6,17 +6,15 @@ description: Rapid visual prototyping
 
 ![](../.gitbook/assets/Colors.png)
 
-Pollen comes with an optional colour palette to encourage consistency across a project. It's designed for rapid prototyping as a better alternative to browser defaults, and to be extended as your project evolves. Add it to your project by importing its CSS file
+Pollen comes with an optional colour palette to encourage consistency across a project. It's designed for rapid prototyping as a better alternative to browser defaults, and to be extended as your project evolves. Add it to your project by enabling the `color` addon in your `pollen.config.js`. Read more about creating a custom Pollen bundle in [configuration](../basics/configuration/ "mention")
 
-{% code title="With javascript" %}
+{% code title="pollen.config.js" %}
 ```javascript
-import 'pollen-css/addons/colors.css';
-```
-{% endcode %}
-
-{% code title="From Unpkg CDN" %}
-```markup
-<link rel="stylesheet" href="https://unpkg.com/pollen-css/addons/colors.css" />
+module.exports = {
+  modules: {
+    color: true
+  }
+}
 ```
 {% endcode %}
 

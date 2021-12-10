@@ -60,25 +60,25 @@ body {
 
 Consistent font weights across an interface
 
-| Property group | Applies to    |
-| -------------- | ------------- |
-| `--font-*`     | `font-weight` |
-
 ```css
 .heading {
-  font-weight: var(--font-bold)
+  font-weight: var(--weight-bold)
 }
 ```
 
-| Property           | Value |
-| ------------------ | ----- |
-| `--font-light`     | `300` |
-| `--font-regular`   | `400` |
-| `--font-medium`    | `500` |
-| `--font-semibold`  | `600` |
-| `--font-bold`      | `700` |
-| `--font-extrabold` | `800` |
-| `--font-black`     | `900` |
+| Property group | Applies to    |
+| -------------- | ------------- |
+| `--weight-*`   | `font-weight` |
+
+| Property             | Value |
+| -------------------- | ----- |
+| `--weight-light`     | `300` |
+| `--weight-regular`   | `400` |
+| `--weight-medium`    | `500` |
+| `--weight-semibold`  | `600` |
+| `--weight-bold`      | `700` |
+| `--weight-extrabold` | `800` |
+| `--weight-black`     | `900` |
 
 ## Line Height
 
