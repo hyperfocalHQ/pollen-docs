@@ -37,11 +37,17 @@ Each color has a family of shades ranging from `300` (light) to `700` (dark), as
 | Property           | Value                   |
 | ------------------ | ----------------------- |
 | `--color-grey`     | `var(--color-grey-500)` |
-| `--color-grey-100` | `#f7fafc`               |
-| `--color-grey-300` | `#f4f5f9`               |
-| `--color-grey-500` | `#8f919b`               |
-| `--color-grey-700` | `#4a5568`               |
-| `--color-black`    | `#1a202c`               |
+| `--color-grey-50`  | `#f9fafb`               |
+| `--color-grey-100` | `#f2f4f5`               |
+| `--color-grey-200` | `#e8eaed`               |
+| `--color-grey-300` | `#d4d7dd`               |
+| `--color-grey-400` | `#a5aab4`               |
+| `--color-grey-500` | `#767c89`               |
+| `--color-grey-600` | `#555d6e`               |
+| `--color-grey-700` | `#3f4754`               |
+| `--color-grey-800` | `#2c343f`               |
+| `--color-grey-900` | `#10181C`               |
+| `--color-black`    | `#14141B`               |
 
 ### Red
 
@@ -87,15 +93,6 @@ Each color has a family of shades ranging from `300` (light) to `700` (dark), as
 | `--color-purple-300` | `#b794f4`                 |
 | `--color-purple-500` | `#805ad5`                 |
 | `--color-purple-700` | `#6b46c1`                 |
-
-### Indigo
-
-| Property             | Value                     |
-| -------------------- | ------------------------- |
-| `--color-indigo`     | `var(--color-indigo-500)` |
-| `--color-indigo-300` | `#7f9cf5`                 |
-| `--color-indigo-500` | `#5a67d8`                 |
-| `--color-indigo-700` | `#4c51bf`                 |
 
 ### Teal
 

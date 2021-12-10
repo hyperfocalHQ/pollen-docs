@@ -26,7 +26,7 @@ Pollen does not impose a design language or theme. It is a set of style-agnostic
 
 ### Functional
 
-Pollen is a functional library. It's pure CSS that works in any environment — stylesheets, inline styles, CSS-in-JS, with any framework — without needing a buildstep or dependency chain. Its variables are used in individual properties, with no hidden side-effects or complex behaviour sets. This results in maintainable, scalable, and readable code.
+Pollen is a functional library. It's pure CSS that works in any environment — stylesheets, inline styles, CSS-in-JS, with any framework. Its variables are used in individual properties, with no hidden side-effects or complex behaviour sets. This results in maintainable, scalable, and readable code.
 
 ### Performant
 

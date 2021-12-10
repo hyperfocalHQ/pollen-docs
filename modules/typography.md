@@ -56,7 +56,7 @@ body {
 | `--font-serif` | `Georgia, Cambria, "Times New Roman", Times, serif`                                 |
 | `--font-mono`  | `Consolas, Menlo, Monaco, "Liberation Mono", monospace`                             |
 
-## Weights
+## Font Weights
 
 Consistent font weights across an interface
 

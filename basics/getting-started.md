@@ -1,8 +1,8 @@
 # Getting started
 
-Since Pollen is just CSS variables, it works everywhere without any configuration needed. There's no buildstep, preprocessor, or environment requirements. It weighs less than 1kb.
+Since Pollen is just CSS variables, it works everywhere. There's no preprocessor or environment requirements and It weighs less than 1kb.
 
-## Installation & Usage
+### Installation
 
 Install Pollen from NPM and include it in your project
 
@@ -26,29 +26,13 @@ Once Pollen is included in your project, you can use its variables anywhere
 
 ### Configuration
 
-### Addons
-
 Pollen comes with a robust set of low-level defaults for building sophisticated designs. But every aspect can be easily customised and extended with the `pollen` command line build tool. Instead of importing the default `pollen.css` file, create a `pollen.config.js` config file in the root of your project and run `pollen` to generate your own custom design system. Then import the generated CSS file as you normally would.
 
-Pollen comes with several optional [addons](getting-started.md#undefined) in addition to its core modules. Include them in your project by importing their CSS file from `pollen-css/addons/{addon}.css`
+Read more in [configuration](configuration/ "mention").
 
-Read more in [configuration](configuration/ "mention")
+### Addons
 
-```javascript
-import 'pollen-css'
-import 'pollen-css/addons/grid.css'
-```
-
-{% code title="pollen.config.js" %}
-```javascript
-module.exports = () => ({
-  modules: {
-    colors: true,
-    grid: true
-  }
-});
-```
-{% endcode %}
+Pollen comes with several optional [addons](getting-started.md#undefined) in addition to its core modules. They can be enabled with Pollen's configuration tools. Read more about [enabling-addons.md](configuration/enabling-addons.md "mention").
 
 ### IE Support
 
