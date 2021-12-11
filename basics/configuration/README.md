@@ -78,3 +78,10 @@ Pollen exports its config as a `Config` type, which you can use to annotate your
 module.exports = {}
 ```
 
+Alternatively use the included `defineConfig()` helper to get typescript support without JSDoc annotation
+
+```javascript
+const { defineConfig } = require('pollen-css/utils');
+
+module.exports = defineConfig({ ... });
+```

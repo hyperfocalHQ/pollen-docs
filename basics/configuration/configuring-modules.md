@@ -31,3 +31,17 @@ module.exports = (pollen) => ({
 });
 ```
 {% endcode %}
+
+These defaults are also provided in the `defineConfig` typescript helper
+
+```javascript
+const { defineConfig } = require('pollen-css/utils');
+
+module.exports = defineConfig(pollen => ({
+  modules: {
+    scale: { ...pollen.scale, '000': '0.6875rem' },
+    letter: {...pollen.letter, xxl: '0.1em' }
+   } 
+  })
+);
+```
