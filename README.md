@@ -8,7 +8,9 @@ coverY: 19.899888765294783
 
 ![](<.gitbook/assets/cover wide.jpg>)
 
-Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](https://tailwindcss.com). It generates a configurable collection of [CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/--\*) that can be used anywhere to encourage consistency, maintainability, and rapid development. Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.com).
+Pollen is a utility-first library of configurable CSS variables. It can be used in any stack to encourage consistency, maintainability, and rapid development. It can be easily extended as a build tool for your own custom design systems.
+
+Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.com).
 
 ### What it looks like
 
