@@ -4,14 +4,14 @@ Since Pollen is just CSS variables, it works everywhere without any preprocessor
 
 ### Installation
 
-Install Pollen from NPM and include its CSS in your project
+Install Pollen from NPM and include its CSS in your project, or link direct to it on the Unpkg CDN
 
+{% tabs %}
+{% tab title="Module import" %}
 ```bash
 npm i pollen-css
 ```
 
-{% tabs %}
-{% tab title="Module import" %}
 ```javascript
 import 'pollen-css';
 ```
@@ -19,38 +19,18 @@ import 'pollen-css';
 > Requires CSS support in your bundler (eg: Webpack, Rollup, etc)
 {% endtab %}
 
-{% tab title="CSS import" %}
-{% code title="With bundler" %}
+{% tab title="CSS import (CDN)" %}
 ```css
-@import "pollen-ss";
+@import "https://unpkg.com/pollen-css";
 ```
-{% endcode %}
-
-{% code title="Plain import" %}
-```css
-@import "/node_modules/pollen-css/pollen.css";
-```
-{% endcode %}
-
-> If linking directly to `node_modules` they need to be shipped with your frontend. Consider either [generating your own bundle](getting-started.md#configuration) or pulling from a CDN instead (see below)
 {% endtab %}
 
-{% tab title="HTML Link" %}
+{% tab title="HTML Link (CDN)" %}
 ```markup
-<link rel="stylesheet" href="/node_modules/pollen-css/pollen.css" />
+<link rel="stylesheet" href="https://unpkg.com/pollen-css" />
 ```
-
-> Linking directly to `pollen.css` in HTML means your `node_modules` needs to be shipped with your frontend. Consider either [generating your own bundle](getting-started.md#configuration) or pulling from a CDN instead (see below)
 {% endtab %}
 {% endtabs %}
-
-#### Including from a CDN
-
-You can also link Pollen's CSS directly from the Unpkg CDN
-
-```html
-<link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
-```
 
 Once Pollen is included in your project, you can use its variables anywhere
 
