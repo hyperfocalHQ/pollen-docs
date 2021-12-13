@@ -72,6 +72,12 @@ const Button = styled.button`
 </button>
 ```
 {% endtab %}
+
+{% tab title="Live example" %}
+{% embed url="https://codepen.io/madeleineostoja/pen/LYjGjGa" %}
+
+
+{% endtab %}
 {% endtabs %}
 
 ## Who's using Pollen
