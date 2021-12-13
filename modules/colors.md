@@ -6,23 +6,13 @@ description: Rapid visual prototyping
 
 ![](../.gitbook/assets/Colors.png)
 
-Pollen comes with an optional colour palette to encourage consistency across a project. It's designed for rapid prototyping as a better alternative to browser defaults, and to be extended as your project evolves. Add it to your project by enabling the `color` addon in your `pollen.config.js`. Read more about creating a custom Pollen bundle in [configuration](../basics/configuration/ "mention")
-
-{% code title="pollen.config.js" %}
-```javascript
-module.exports = {
-  modules: {
-    color: true
-  }
-}
-```
-{% endcode %}
-
 ## The Palette
 
 | Property group | Applies to                   |
 | -------------- | ---------------------------- |
 | `--color-*`    | `color` , `background-color` |
+
+Pollen's color palette is designed for rapid prototyping as a better alternative to browser defaults, and to be extended as your project evolves.&#x20;
 
 Each color has a family of shades ranging from `300` (light) to `700` (dark), as well as an extended greyscale. The unsuffixed color (eg: `--color-red`) in each family is an alias for median in that family (eg: `--color-red-500`).
 

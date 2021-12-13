@@ -16,7 +16,7 @@ Consistent edge radiuses throughout an interface.
 
 ```css
 .button {
-  border-radius: var(--radius);
+  border-radius: var(--radius-md);
 }
 ```
 

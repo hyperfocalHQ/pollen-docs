@@ -1,20 +1,50 @@
 # Getting started
 
-Since Pollen is just CSS variables, it works everywhere. There's no preprocessor or environment requirements and It weighs less than 1kb.
+Since Pollen is just CSS variables, it works everywhere without any preprocessor or environment requirements.
 
 ### Installation
 
-Install Pollen from NPM and include it in your project
+Install Pollen from NPM and include its CSS in your project
 
 ```bash
 npm i pollen-css
 ```
 
+{% tabs %}
+{% tab title="Module import" %}
 ```javascript
 import 'pollen-css';
 ```
 
-#### Alternatively include from a CDN
+> Requires CSS support in your bundler (eg: Webpack, Rollup, etc)
+{% endtab %}
+
+{% tab title="CSS import" %}
+{% code title="With bundler" %}
+```css
+@import "pollen-ss";
+```
+{% endcode %}
+
+{% code title="Plain import" %}
+```css
+@import "/node_modules/pollen-css/pollen.css";
+```
+{% endcode %}
+
+> If linking directly to `node_modules` they need to be shipped with your frontend. Consider either [generating your own bundle](getting-started.md#configuration) or pulling from a CDN instead (see below)
+{% endtab %}
+
+{% tab title="HTML Link" %}
+```markup
+<link rel="stylesheet" href="/node_modules/pollen-css/pollen.css" />
+```
+
+> Linking directly to `pollen.css` in HTML means your `node_modules` needs to be shipped with your frontend. Consider either [generating your own bundle](getting-started.md#configuration) or pulling from a CDN instead (see below)
+{% endtab %}
+{% endtabs %}
+
+#### Including from a CDN
 
 You can also link Pollen's CSS directly from the Unpkg CDN
 
@@ -26,13 +56,9 @@ Once Pollen is included in your project, you can use its variables anywhere
 
 ### Configuration
 
-Pollen comes with a robust set of low-level defaults for building sophisticated designs. But every aspect can be easily customised and extended with the `pollen` command line build tool. Instead of importing the default `pollen.css` file, create a `pollen.config.js` config file in the root of your project and run `pollen` to generate your own custom design system. Then import the generated CSS file as you normally would.
+Pollen comes with a robust set of low-level defaults for building sophisticated designs. But every aspect can be easily customised, extended, or stripped out with the `pollen` command line build tool. Instead of importing the default `pollen.css` file, create a `pollen.config.js` config file in the root of your project and run `pollen` to generate your own custom design system. Then import the generated CSS file as you normally would.
 
 Read more in [configuration](configuration/ "mention").
-
-### Addons
-
-Pollen comes with several optional [addons](getting-started.md#undefined) in addition to its core modules. They can be enabled with Pollen's configuration tools. Read more about [enabling-addons.md](configuration/enabling-addons.md "mention").
 
 ### IE Support
 
@@ -58,12 +84,13 @@ If you have [configured a custom Pollen bundle](configuration/) make sure you ad
 ```json
 {
   "cssvar.files": [
-    "./node_modules/pollen-css/pollen.css", // Or your custom Pollen bundle
+    // Or your custom Pollen bundle
+    "./node_modules/pollen-css/pollen.css", 
   ],
   // Use Pollen's inbuilt variable ordering
-  "cssvar.disableSort": true,
-  // Add support for autocomplete in other file types
-  "cssvar.extensions": ["css", "html", "jsx", "tsx"]
+  "cssvar.disableSort": true, 
+   // Add support for autocomplete in other file types
+  "cssvar.extensions": ["css", "html", "jsx", "tsx"] 
 }
 ```
 {% endcode %}

@@ -38,7 +38,7 @@ module.exports = {
 {% endtab %}
 {% endtabs %}
 
-Property keys in module configuration are automatically kebab-cased. For example `pageWidth` in the `grid` [addon](../../addons/grid.md) becomes `--grid-page-width`.
+Property keys in module configuration are automatically kebab-cased. For example `pageWidth` in the [`grid` module](../../modules/grid.md) becomes `--grid-page-width`.
 
 ### Configuration logic
 

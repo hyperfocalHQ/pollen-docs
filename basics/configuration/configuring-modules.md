@@ -2,7 +2,25 @@
 
 Every module in Pollen can be customised, overwritten, and extended. A _module_ is a collection of CSS variables with the same prefix, eg: `scale` (see [typography.md](../../modules/typography.md "mention")), `size` (see [layout.md](../../modules/layout.md "mention")), etc.
 
-To configure a module, provide an object to the appropriate key under `modules` in your config
+### Enabling and disabling&#x20;
+
+Enable and disable whole module by passing `true` or `false` to the module in your config. All modules are enabled by default, set any you don't plan on using to `false` to further save on bundle size.
+
+{% code title="pollen.config.js" %}
+```javascript
+module.exports = {
+  modules: {
+    scale: false,
+    width: false,
+    color: true
+  }
+}
+```
+{% endcode %}
+
+### Overwriting
+
+To overwrite a module, provide an object with all the values you want to use to the module in your config.
 
 {% code title="pollen.config.js" %}
 ```javascript
@@ -15,9 +33,9 @@ module.exports = {
 ```
 {% endcode %}
 
-### Extending defaults
+### Extending
 
-Providing an object to a module like above will overwrite that module. Often you'll want to just tweak a few values from Pollen's defaults instead, or add more values to an existing module.&#x20;
+Often you'll want to just add or tweak a few values from Pollen's defaults instead of disabling or overwriting outright.&#x20;
 
 To do this Pollen provides all of its defaults as an argument to a configuration _function_ rather than a plain object. Spread the appropriate key into a new object on the module to extend or overwrite Pollen's defaults.
 

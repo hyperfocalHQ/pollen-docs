@@ -4,18 +4,6 @@ description: The Grid System
 
 # Grid
 
-Pollen comes with an optional set of helpers for creating and maintaining CSS grids in a project. Add it to your project by enabling the `grid` addon in our `pollen.config.js`. Read more about creating a custom Pollen bundle in [configuration](../basics/configuration/ "mention")
-
-{% code title="pollen.config.js" %}
-```javascript
-module.exports = {
-  modules: {
-    grid: true
-  }
-}
-```
-{% endcode %}
-
 ## Page Grid
 
 A configurable grid designed to be used for page containers, with a main center column for content and gutters on each side. The main center column will expand until it reaches a max-width, at which point it will remain constrained and centered at that width.

@@ -20,7 +20,7 @@ Pollen's low-level variables can be used to build any design. They're easy to cu
 .button {
    font-family: var(--font-sans);
    font-size: var(--scale-00);
-   font-weight: var(--font-medium); 
+   font-weight: var(--weight-medium); 
    line-height: var(--line-none);
    padding: var(--size-3) var(--size-5);
    background: var(--color-blue);
@@ -35,7 +35,7 @@ Pollen's low-level variables can be used to build any design. They're easy to cu
 const Button = styled.button`
    font-family: var(--font-sans);
    font-size: var(--scale-00);
-   font-weight: var(--font-medium); 
+   font-weight: var(--weight-medium); 
    line-height: var(--line-none);
    padding: var(--size-3) var(--size-5);
    background: var(--color-blue);
@@ -50,7 +50,7 @@ const Button = styled.button`
 <button styles={{ 
    fontFamily: 'var(--font-sans)',
    fontSize: 'var(--scale-00)',
-   fontWeight: 'var(--font-medium)',
+   fontWeight: 'var(--weight-medium)',
    lineHeight: 'var(--line-none)',
    padding: 'var(--size-3) var(--size-5)',
    background: 'var(--color-blue)',
@@ -65,7 +65,7 @@ const Button = styled.button`
 
 {% tab title="Inline Styles" %}
 ```markup
-<button style="font-family: var(--font-sans); font-size: var(--scale-00); font-weight: var(--font-medium);  line-height: var(--line-none); padding: var(--size-3) var(--size-5); background: var(--color-blue); border-radius: var(--radius-xs); color: white;">
+<button style="font-family: var(--font-sans); font-size: var(--scale-00); font-weight: var(--weight-medium);  line-height: var(--line-none); padding: var(--size-3) var(--size-5); background: var(--color-blue); border-radius: var(--radius-xs); color: white;">
   Button
 </button>
 ```
