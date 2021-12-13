@@ -1,5 +1,5 @@
 ---
-description: Utility-first CSS for the future
+description: The future of utility-first CSS
 cover: .gitbook/assets/cover wide.jpg
 coverY: 19.899888765294783
 ---
@@ -8,13 +8,13 @@ coverY: 19.899888765294783
 
 ![](<.gitbook/assets/cover wide.jpg>)
 
-Pollen is a utility-first library of configurable CSS variables. It can be used in any stack to encourage consistency, maintainability, and rapid development. It can be easily extended as a build tool for your own custom design systems.
+Pollen is a configurable library of CSS variables. It lets you write faster, more consistent, and more maintainable styles. Use it in any stack and easily extend it as a build tool for your own custom design systems.
 
 Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.com).
 
 ### What it looks like
 
-Pollen's low-level variables can be used to build any design. They're easy to customise and extend, and they're globally responsive. They don't require preprocessors, class naming conventions, or any new non-standard syntax
+Pollen's low-level design tokens can be used to build any project. They're easy to customise and extend, and they're globally responsive. They don't require preprocessors, class naming conventions, or any new non-standard syntax
 
 ![](.gitbook/assets/Mockup.jpg)
 
