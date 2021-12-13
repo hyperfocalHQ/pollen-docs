@@ -10,7 +10,7 @@
   * [Extending Pollen](basics/configuration/extending-pollen.md)
 * [Reactivity](basics/theming.md)
 
-## Core Modules <a href="#modules" id="modules"></a>
+## Modules
 
 * [Typography](modules/typography.md)
 * [Layout](modules/layout.md)
