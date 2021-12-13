@@ -1,5 +1,5 @@
 ---
-description: The future of utility-first CSS
+description: The foundation of your next design system
 cover: .gitbook/assets/cover wide.jpg
 coverY: 19.899888765294783
 ---
