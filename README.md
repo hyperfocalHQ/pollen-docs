@@ -14,6 +14,8 @@ Pollen is a standards-driven, utility-first CSS library inspired by [Tailwind](h
 
 Pollen's low-level variables can be used to build any design. They're easy to customise and extend, and they're globally responsive. They don't require preprocessors, class naming conventions, or any new non-standard syntax
 
+![](.gitbook/assets/Mockup.jpg)
+
 {% tabs %}
 {% tab title="CSS" %}
 ```css
@@ -71,8 +73,6 @@ const Button = styled.button`
 ```
 {% endtab %}
 {% endtabs %}
-
-{% embed url="https://codepen.io/madeleineostoja/pen/LYjGjGa" %}
 
 ## Who's using Pollen
 
