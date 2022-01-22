@@ -50,7 +50,7 @@ import { shimmie } from 'pollen-css/utils';
 shimmie();
 ```
 
-Shimmie will check for support, and if required dynamically load and apply the excellent [`css-vars-ponfyill`](https://jhildenbiddle.github.io/css-vars-ponyfill/#/) shim with sane configuration.
+Shimmie will check for support and, if required, dynamically load and apply the excellent [`css-vars-ponyfill`](https://jhildenbiddle.github.io/css-vars-ponyfill/#/) shim with sane configuration.
 
 ## Editor Integration
 
