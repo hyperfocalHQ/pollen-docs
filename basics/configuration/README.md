@@ -83,11 +83,23 @@ pollen -c ./pollen-dev.config.js -o ./styles/pollen-dev.css
 The `output` option in Pollen's config also accepts an object with a `json` field, which will generate a JSON schema of your design system. This is useful for internal documentation if your [module configuration](configuring-modules.md) differs significantly from Pollen's defaults, which are documented here.
 
 ```javascript
-odule.exports = {
+module.exports = {
   output: {
     css: './styles/pollen.css',
     json: './docs/pollen.json'
   }
+}
+```
+
+### Changing the CSS selector
+
+By default Pollen scopes all its variables to `:root`. This is generally what you want, it will make your style variables available globally through your site, polyfill-able for IE11, and easy to reactively modify with media queries and javascript.&#x20;
+
+However you can change this with the `selector` option in Pollen's config, a potential use-case is to make it `:host` for a shadow DOM, or a HTML element if you want to scope Pollen to part of your project
+
+```javascript
+module.exports = {
+  selector: '.scoped'
 }
 ```
 
