@@ -52,10 +52,11 @@ Since the output CSS is a generated file, we recommend excluding this output fro
 
 ### Config options
 
-| Option    | Default               | Description                                                                                 |
-| --------- | --------------------- | ------------------------------------------------------------------------------------------- |
-| `output`  | `./pollen.css`        | File path of the generated Pollen stylesheet to use in your project                         |
-| `modules` | Pollen default values | Pollen module configuration, see [configuring-modules.md](configuring-modules.md "mention") |
+| Option     | Default               | Description                                                                                 |
+| ---------- | --------------------- | ------------------------------------------------------------------------------------------- |
+| `output`   | `./pollen.css`        | File path of the generated Pollen stylesheet and optional JSON schema                       |
+| `selector` | `:root`               | CSS selector to scope Pollen's variables to                                                 |
+| `modules`  | Pollen default values | Pollen module configuration, see [configuring-modules.md](configuring-modules.md "mention") |
 
 ```javascript
 module.exports = {
@@ -75,6 +76,19 @@ module.exports = {
 
 ```
 pollen -c ./pollen-dev.config.js -o ./styles/pollen-dev.css
+```
+
+### Exporting a JSON schema
+
+The `output` option in Pollen's config also accepts an object with a `json` field, which will generate a JSON schema of your design system. This is useful for internal documentation if your [module configuration](configuring-modules.md) differs significantly from Pollen's defaults, which are documented here.
+
+```javascript
+odule.exports = {
+  output: {
+    css: './styles/pollen.css',
+    json: './docs/pollen.json'
+  }
+}
 ```
 
 ### Typescript support
