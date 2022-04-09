@@ -22,7 +22,7 @@ Update CSS variables in JS by using the `setProperty` method on the document roo
 document.documentElement.style.setProperty(`--color-primary`, `#4299e1`);
 ```
 
-You can also alias variables to other variables, this is useful for using a consistent property throughout your codebase that can be dynamically updated without losing meaning
+You can also alias variables to other variables, this is useful for using a consistent property throughout your codebase that can be dynamically updated without losing meaning.
 
 ```javascript
 function enableDarkMode() {
