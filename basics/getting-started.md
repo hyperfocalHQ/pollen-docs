@@ -65,12 +65,14 @@ If you have [configured a custom Pollen bundle](configuration/) make sure you ad
 {
   "cssvar.files": [
     // Or your custom Pollen bundle
-    "./node_modules/pollen-css/pollen.css", 
+    "./node_modules/pollen-css/pollen.css",
   ],
+  // Do not ignore css files in node_modules, which is ignored by default
+  "cssvar.ignore": [],
   // Use Pollen's inbuilt variable ordering
-  "cssvar.disableSort": true, 
-   // Add support for autocomplete in other file types
-  "cssvar.extensions": ["css", "html", "jsx", "tsx"] 
+  "cssvar.disableSort": true,
+  // Add support for autocomplete in other file types
+  "cssvar.extensions": ["css", "html", "jsx", "tsx"]
 }
 ```
 {% endcode %}
