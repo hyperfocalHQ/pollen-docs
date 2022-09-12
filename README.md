@@ -12,7 +12,7 @@ Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.c
 
 ### What it looks like
 
-Pollen's style-agnostic design tokens can be used to build any project. They're easy to completely customise and extend and they don't require preprocessors, class naming conventions, or non-standard syntax.
+Pollen's design tokens can be used to build any project. They're easy to completely customise and extend and they don't require preprocessors, class naming conventions, or non-standard syntax.
 
 ![](.gitbook/assets/Mockup.jpg)
 
