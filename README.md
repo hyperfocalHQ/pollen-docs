@@ -1,5 +1,5 @@
 ---
-description: The CSS variable build system
+description: The CSS variables build system
 ---
 
 # Introducing Pollen
