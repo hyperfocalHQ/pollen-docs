@@ -30,30 +30,29 @@ Consistent edge radiuses throughout an interface.
 | `--radius-100`  | `100%`   |
 | `--radius-full` | `9999px` |
 
-## Elevation
+## Shadow
 
 Box shadows for creating realistic elevation in 3d space.
 
-| Property group  | Applies to   |
-| --------------- | ------------ |
-| `--elevation-*` | `box-shadow` |
+| Property group | Applies to   |
+| -------------- | ------------ |
+| `--shadow-*`   | `box-shadow` |
 
 ![](../.gitbook/assets/Shadows.png)
 
 ```css
 .card {
-  box-shadow: var(--elevation-1);
+  box-shadow: var(--shadow-sm);
 }
 ```
 
-| Property        | Value                                                                       |
-| --------------- | --------------------------------------------------------------------------- |
-| `--elevation-1` | `0 1px 2px 0 rgba(0, 0, 0, 0.05)`                                           |
-| `--elevation-2` | `0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)`           |
-| `--elevation-3` | `0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)`     |
-| `--elevation-4` | `0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)`   |
-| `--elevation-5` | `0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)` |
-| `--elevation-6` | `0 25px 50px -12px rgba(0, 0, 0, 0.25)`                                     |
+| Property      | Value                                                                       |
+| ------------- | --------------------------------------------------------------------------- |
+| `--shadow-xs` | `0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06)`           |
+| `--shadow-sm` | `0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)`     |
+| `--shadow-md` | `0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)`   |
+| `--shadow-lg` | `0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)` |
+| `--shadow-xl` | `0 25px 50px -12px rgba(0, 0, 0, 0.25)`                                     |
 
 ## Blur
 

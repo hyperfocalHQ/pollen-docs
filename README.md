@@ -1,20 +1,18 @@
 ---
-description: The foundation of your next design system
-cover: .gitbook/assets/cover wide.jpg
-coverY: 19.899888765294783
+description: The CSS variable build system
 ---
 
 # Introducing Pollen
 
 ![](<.gitbook/assets/cover wide.jpg>)
 
-Pollen is a configurable library of CSS variables. It lets you write faster, more consistent, and more maintainable styles. Use it in any stack and easily extend it as a build tool for your own custom design systems.
+Pollen is a highly configurable, responsive library of style-agnostic CSS variables for your next design system. It lets you write faster, more consistent, and more maintainable styles.&#x20;
 
 Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.com).
 
 ### What it looks like
 
-Pollen's low-level design tokens can be used to build any project. They're easy to customise and extend, and they're globally responsive. They don't require preprocessors, class naming conventions, or any new non-standard syntax
+Pollen's style-agnostic design tokens can be used to build any project. They're easy to completely customise and extend and they don't require preprocessors, class naming conventions, or non-standard syntax.
 
 ![](.gitbook/assets/Mockup.jpg)
 
@@ -82,12 +80,11 @@ const Button = styled.button`
 {% endtab %}
 {% endtabs %}
 
-## Who's using Pollen
+### Core features
 
-Pollen is used extensively in production and actively maintained by the photo nerds [Bokeh](https://heybokeh.com). It's also used by many other awesome teams in projects from small to large-scale. Are you using Pollen? [Open an issue on Github](https://github.com/peppercornstudio/pollen/issues/new) to add your site to the list.
+* Robust library of well-considered, style-agnostic CSS variables (see [Broken link](broken-reference "mention"))
+* Fully configurable and extensible with CLI build tool (see [configuration](basics/configuration/ "mention"))
+* Zero setup required to get started (see [getting-started.md](basics/getting-started.md "mention"))
+* Easy responsive design with support for configuring CSS queries (see [queries.md](basics/configuration/queries.md "mention"))
+* Lightweight, human-readable output if you ever want to move away from Pollen
 
-![Corellium](.gitbook/assets/corellium.png) ![Bokeh](<.gitbook/assets/Screen Shot 2021-11-14 at 11.27.34 AM.png>)
-
-![Inventia](.gitbook/assets/inventia.png) ![Siesta Campers](.gitbook/assets/siestacampers.png)
-
-![Faethm](.gitbook/assets/faethm.png) ![Madeleine Ostoja](.gitbook/assets/madeleineostoja.png)

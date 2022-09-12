@@ -2,7 +2,7 @@
 
 Since Pollen is just CSS variables, it works everywhere without any preprocessor or environment requirements.
 
-### Installation
+### Quick Start
 
 Install Pollen from NPM and include its CSS in your project, or link direct to it on the Unpkg CDN
 
@@ -36,7 +36,7 @@ Once Pollen is included in your project, you can use its variables anywhere
 
 ### Configuration
 
-Pollen comes with a robust set of low-level defaults for building sophisticated designs. But every aspect can be easily customised, extended, or stripped out with the `pollen` command line build tool. Instead of importing the default `pollen.css` file, create a `pollen.config.js` config file in the root of your project and run `pollen` to generate your own custom design system. Then import the generated CSS file as you normally would.
+The real power of Pollen comes when you begin to extend and customise the default set of CSS variables. Every part of the library can be customised, extended, or stripped out with the `pollen` command line build tool. Instead of importing the default `pollen.css` file, create a `pollen.config.js` config file in the root of your project and run `pollen` to generate your own custom design system. Then import the generated CSS file as you normally would.
 
 Read more in [configuration](configuration/ "mention").
 

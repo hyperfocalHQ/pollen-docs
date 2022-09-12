@@ -8,7 +8,8 @@
 * [Configuration](basics/configuration/README.md)
   * [Configuring Modules](basics/configuration/configuring-modules.md)
   * [Extending Pollen](basics/configuration/extending-pollen.md)
-* [Reactivity](basics/theming.md)
+  * [Media & Supports](basics/configuration/queries.md)
+* [Javascript](basics/javascript.md)
 
 ## Modules
 

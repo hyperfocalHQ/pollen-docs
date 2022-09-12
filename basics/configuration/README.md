@@ -1,6 +1,6 @@
 # Configuration
 
-While Pollen provides a default bundle of robust, useful low-level variables to build your project with (under `pollen-css/pollen.css`). It also comes with a build tool to generate your own custom CSS bundle instead.
+While Pollen provides a default bundle of robust, useful low-level variables to build your project with (under `pollen-css/pollen.css`). It also comes with a build tool to generate your own custom design system instead.
 
 Start by creating a `pollen.config.js` file in the root of your project that exports either a function or an object. See the full list of configuration options below.
 
@@ -32,9 +32,19 @@ npx pollen
 
 Then import/link to the output stylesheet in your project instead of the default Pollen export
 
+{% tabs %}
+{% tab title="Javascript" %}
 ```javascript
-import './pollen.css';
+import './pollen.css'
 ```
+{% endtab %}
+
+{% tab title="HTML" %}
+```html
+<link rel="stylesheet" href="/pollen.css" />
+```
+{% endtab %}
+{% endtabs %}
 
 #### Managing Pollen builds in production
 
@@ -57,6 +67,8 @@ Since the output CSS is a generated file, we recommend excluding this output fro
 | `output`   | `./pollen.css`        | File path of the generated Pollen stylesheet and optional JSON schema                       |
 | `selector` | `:root`               | CSS selector to scope Pollen's variables to                                                 |
 | `modules`  | Pollen default values | Pollen module configuration, see [configuring-modules.md](configuring-modules.md "mention") |
+| `media`    | `undefined`           | Media queries, see [queries.md](queries.md "mention")                                       |
+| `supports` | `undefined`           | Supports queries, see [queries.md](queries.md "mention")                                    |
 
 ```javascript
 module.exports = {
