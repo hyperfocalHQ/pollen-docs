@@ -87,3 +87,55 @@ const Button = styled.button`
 
 {% endtab %}
 {% endtabs %}
+
+### How it works
+
+#### **1. Configure your design system**
+
+{% code title="pollen.config.js" %}
+```js
+module.exports = (pollen) => ({
+  output: './pollen.css',
+  modules: {
+    color: {
+      ...pollen.colors,
+      bg: 'white',
+      text: 'var(--color-black)'
+    }
+  },
+  media: {
+    '(prefers-color-scheme: dark)': {
+      color: {
+        bg: 'var(--color-black)',
+        text: 'white'
+      }
+    }
+  }
+});
+```
+{% endcode %}
+
+#### **2. Build your CSS**
+
+```
+$ pollen
+```
+
+#### **3. Use the CSS**
+
+{% code title="./pollen.css" %}
+```css
+:root {
+  ...
+  --color-bg: white;
+  --color-text: var(--color-black);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-bg: var(--color-black);
+    --color-text: white;
+  }
+}
+```
+{% endcode %}
