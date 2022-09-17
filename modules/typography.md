@@ -36,6 +36,38 @@ Pollen provides a robust modular typography scale to encourage consistent typogr
 | `--scale-9`   | `6rem`     | `96px`        |
 | `--scale-10`  | `8rem`     | `128px`       |
 
+## Fluid Modular Scale
+
+In addition to the standard modular typographic scale above, Pollen also comes with a fluid scale that tweens between steps on the scale as screen width changes. Its built with Pollen's own [fluid.md](../utils/fluid.md "mention") utility, which generates complex CSS `clamp()` functions based on screen width bounds.
+
+Each fluid font size resizes between a min and max size, starting at mobile screen sizes (`480px`) and ending at normal desktop screen sizes (`1280px`).
+
+| Property group    | Applies to  |
+| ----------------- | ----------- |
+| `--scale-fluid-*` | `font-size` |
+
+```css
+.heading {
+  font-size: var(--scale-fluid-5);
+}
+```
+
+| Property            | Value                                         | Range                   |
+| ------------------- | --------------------------------------------- | ----------------------- |
+| `--scale-fluid-000` | `clamp(0.625rem, 0.55rem + 0.25vw, 0.75rem)`  | `0.625rem` -> `0.75rem` |
+| `--scale-fluid-00`  | `clamp(0.75rem, 0.675rem + 0.25vw, 0.875rem)` | `0.75rem` -> `0.875rem` |
+| `--scale-fluid-0`   | `clamp(0.875rem, 0.8rem + 0.25vw, 1rem)`      | `0.875rem` -> `1rem`    |
+| `--scale-fluid-1`   | `clamp(1rem, 0.925rem + 0.25vw, 1.125rem)`    | `1rem` -> `1.125rem`    |
+| `--scale-fluid-2`   | `clamp(1.125rem, 1.05rem + 0.25vw, 1.25rem)`  | `1.125rem` -> `1.25rem` |
+| `--scale-fluid-3`   | `clamp(1.8125rem, 2rem + -0.625vw, 1.5rem)`   | `1.8125rem` -> `1.5rem` |
+| `--scale-fluid-4`   | `clamp(1.5rem, 1.275rem + 0.75vw, 1.875rem)`  | `1.5rem` -> `1.875rem`  |
+| `--scale-fluid-5`   | `clamp(1.875rem, 1.65rem + 0.75vw, 2.25rem)`  | `1.875rem` -> `2.25rem` |
+| `--scale-fluid-6`   | `clamp(2.25rem, 1.8rem + 1.5vw, 3rem)`        | `2.25rem` -> `3rem`     |
+| `--scale-fluid-7`   | `clamp(3rem, 2.55rem + 1.5vw, 3.75rem)`       | `3rem` -> `3.75rem`     |
+| `--scale-fluid-8`   | `clamp(3.75rem, 3.3rem + 1.5vw, 4.5rem)`      | `3.75rem` -> `4.5rem`   |
+| `--scale-fluid-9`   | `clamp(4.5rem, 3.6rem + 3vw, 6rem)`           | `4.5rem` -> `6rem`      |
+| `--scale-fluid-10`  | `clamp(6rem, 4.8rem + 4vw, 8rem)`             | `6rem` -> `8rem`        |
+
 ## Font Families
 
 Base font stacks as better alternatives to browser defaults, designed for rapid prototyping and to be overridden as your project grows.
