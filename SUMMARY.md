@@ -23,7 +23,7 @@
 
 * [defineConfig](utils/defineconfig.md)
 * [fluid](utils/fluid.md)
-* [Page 1](utils/page-1.md)
+* [shimmie](utils/shimmie.md)
 
 ## Misc
 
