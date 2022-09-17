@@ -19,6 +19,12 @@
 * [Grid](modules/grid.md)
 * [Colors](modules/colors.md)
 
+## Utils
+
+* [defineConfig](utils/defineconfig.md)
+* [fluid](utils/fluid.md)
+* [Page 1](utils/page-1.md)
+
 ## Misc
 
 * [Motivations](misc/motivations.md)

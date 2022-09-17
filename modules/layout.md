@@ -81,3 +81,27 @@ Encourage consistent max-widths for containers throughout an interface, based ro
 | `--width-md` | `768px`  |
 | `--width-lg` | `1024px` |
 | `--width-xl` | `1280px` |
+
+## Aspect Ratios
+
+Simple aspect ratios for common formats
+
+| Property group | Applies to     |
+| -------------- | -------------- |
+| `--ratio-*`    | `aspect-ratio` |
+
+```css
+.image {
+  aspect-ratio: var(--ratio-portrait);
+}
+```
+
+| Property             | Value     |
+| -------------------- | --------- |
+| `--ratio-square`     | `1/1`     |
+| `--ratio-portrait`   | `3/4`     |
+| `--ratio-landscape`  | `4/3`     |
+| `--ratio-tall`       | `2/3`     |
+| `--ratio-wide`       | `3/2`     |
+| `--ratio-widescreen` | `16/9`    |
+| `--ratio-golden`     | `1.618/1` |
