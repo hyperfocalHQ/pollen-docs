@@ -93,7 +93,7 @@ const Button = styled.button`
 #### **1. Configure your design system**
 
 {% code title="pollen.config.js" %}
-```js
+```javascript
 module.exports = (pollen) => ({
   output: './pollen.css',
   modules: {

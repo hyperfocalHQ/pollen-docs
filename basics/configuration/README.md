@@ -2,7 +2,12 @@
 
 While Pollen provides a default bundle of robust, useful low-level variables to build your project with (under `pollen-css/pollen.css`). It also comes with a build tool to generate your own custom design system instead.
 
-Start by creating a `pollen.config.js` file in the root of your project that exports either a function or an object. See the full list of configuration options below.
+Start by creating a config file in the root of your project that exports either a function or an object. See the full list of configuration options below.
+
+The config file can be in CommonJS or ESM format, and will automatically be loaded with any of the following filenames:
+
+* `pollen.config.{js|cjs|mjs}`
+* `pollenrc.{js|cjs|mjs}`
 
 {% code title="pollen.config.js" %}
 ```javascript
