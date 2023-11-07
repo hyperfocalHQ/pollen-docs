@@ -8,7 +8,7 @@ description: The CSS variables build system
 
 Pollen is a highly configurable, responsive library of style-agnostic CSS variables for your next design system. It lets you write faster, more consistent, and more maintainable styles.&#x20;
 
-Made and maintained with ❤️ by the fine people at [Bokeh](https://heybokeh.com).
+Made and maintained with ❤️ by the fine people at [Bokeh](https://bokeh.photo).
 
 ### Features
 
