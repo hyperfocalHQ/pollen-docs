@@ -29,3 +29,7 @@
 
 * [Motivations](misc/motivations.md)
 * [Contributing](misc/contributing.md)
+
+## Migration Guide
+
+* [v4 -> v5](migration-guide/v5.md)
