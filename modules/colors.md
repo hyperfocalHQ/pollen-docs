@@ -4,7 +4,7 @@ description: Rapid visual prototyping
 
 # Colors
 
-![](../.gitbook/assets/Colors.png)
+Pollen includes a default color palette for rapid prototyping as a better alternative to browser defaults. It's designed to be a robust base that you can either replace or adapt from as your project evolves.
 
 ## The Palette
 
@@ -12,9 +12,9 @@ description: Rapid visual prototyping
 | -------------- | ---------------------------- |
 | `--color-*`    | `color` , `background-color` |
 
-Pollen's color palette is designed for rapid prototyping as a better alternative to browser defaults, and to be extended as your project evolves.&#x20;
+Pollen borrows from and lightly adapts Tailwind's excellent [color palette](https://tailwindcss.com/docs/customizing-colors).
 
-Each color has a family of shades ranging from `300` (light) to `700` (dark), as well as an extended greyscale. The unsuffixed color (eg: `--color-red`) in each family is an alias for median in that family (eg: `--color-red-500`).
+Each color has a family of shades ranging from `50` (very light) to `950` (very dark). The unsuffixed color (eg: `--color-red`) in each family is an alias for median in that family (eg: `--color-red-500`).
 
 ```css
 .alert {
@@ -24,20 +24,7 @@ Each color has a family of shades ranging from `300` (light) to `700` (dark), as
 
 ### Greyscale
 
-| Property           | Value                   |
-| ------------------ | ----------------------- |
-| `--color-grey`     | `var(--color-grey-500)` |
-| `--color-grey-50`  | `#f9fafb`               |
-| `--color-grey-100` | `#f2f4f5`               |
-| `--color-grey-200` | `#e8eaed`               |
-| `--color-grey-300` | `#d4d7dd`               |
-| `--color-grey-400` | `#a5aab4`               |
-| `--color-grey-500` | `#767c89`               |
-| `--color-grey-600` | `#555d6e`               |
-| `--color-grey-700` | `#3f4754`               |
-| `--color-grey-800` | `#2c343f`               |
-| `--color-grey-900` | `#10181C`               |
-| `--color-black`    | `#14141B`               |
+<table><thead><tr><th width="263">Property</th><th>Value</th></tr></thead><tbody><tr><td><code>--color-grey</code></td><td><code>var(--color-grey-500)</code></td></tr><tr><td><code>--color-grey-50</code></td><td><code>#f9fafb</code></td></tr><tr><td><code>--color-grey-100</code></td><td><code>#f2f4f5</code></td></tr><tr><td><code>--color-grey-200</code></td><td><code>#e8eaed</code></td></tr><tr><td><code>--color-grey-300</code></td><td><code>#d4d7dd</code></td></tr><tr><td><code>--color-grey-400</code></td><td><code>#a5aab4</code></td></tr><tr><td><code>--color-grey-500</code></td><td><code>#767c89</code></td></tr><tr><td><code>--color-grey-600</code></td><td><code>#555d6e</code></td></tr><tr><td><code>--color-grey-700</code></td><td><code>#3f4754</code></td></tr><tr><td><code>--color-grey-800</code></td><td><code>#2c343f</code></td></tr><tr><td><code>--color-grey-900</code></td><td><code>#10181C</code></td></tr><tr><td><code>--color-black</code></td><td><code>#14141B</code></td></tr></tbody></table>
 
 ### Red
 

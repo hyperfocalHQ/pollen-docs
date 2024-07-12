@@ -13,7 +13,7 @@ npm i pollen-css
 ```
 
 ```javascript
-import 'pollen-css';
+import 'pollen-css/pollen.css';
 ```
 
 > Requires CSS support in your bundler (eg: Webpack, Rollup, etc)
@@ -21,13 +21,13 @@ import 'pollen-css';
 
 {% tab title="CSS import (CDN)" %}
 ```css
-@import "https://unpkg.com/pollen-css";
+@import "https://unpkg.com/pollen-css/pollen.css";
 ```
 {% endtab %}
 
 {% tab title="HTML Link (CDN)" %}
 ```markup
-<link rel="stylesheet" href="https://unpkg.com/pollen-css" />
+<link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
 ```
 {% endtab %}
 {% endtabs %}
@@ -65,7 +65,7 @@ If you have [configured a custom Pollen bundle](configuration/) make sure you ad
 {
   "cssvar.files": [
     // Or your custom Pollen bundle
-    "./node_modules/pollen-css/pollen.css",
+    "./node_modules/pollen-css/dist/pollen.css",
   ],
   // Do not ignore css files in node_modules, which is ignored by default
   "cssvar.ignore": [],

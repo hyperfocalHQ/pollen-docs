@@ -67,13 +67,7 @@ Since the output CSS is a generated file, we recommend excluding this output fro
 
 ### Config options
 
-| Option     | Default               | Description                                                                                 |
-| ---------- | --------------------- | ------------------------------------------------------------------------------------------- |
-| `output`   | `./pollen.css`        | File path of the generated Pollen stylesheet and optional JSON schema                       |
-| `selector` | `:root`               | CSS selector to scope Pollen's variables to                                                 |
-| `modules`  | Pollen default values | Pollen module configuration, see [configuring-modules.md](configuring-modules.md "mention") |
-| `media`    | `undefined`           | Media queries, see [queries.md](queries.md "mention")                                       |
-| `supports` | `undefined`           | Supports queries, see [queries.md](queries.md "mention")                                    |
+<table><thead><tr><th width="161">Option</th><th width="155.7450980392157">Default</th><th>Description</th></tr></thead><tbody><tr><td><code>output</code></td><td><code>./pollen.css</code></td><td>File path of the generated Pollen stylesheet and optional JSON schema</td></tr><tr><td><code>selector</code></td><td><code>:root</code></td><td>CSS selector to scope Pollen's variables to</td></tr><tr><td><code>modules</code></td><td>Pollen default values</td><td>Pollen module configuration, see <a data-mention href="configuring-modules.md">configuring-modules.md</a></td></tr><tr><td><code>media</code></td><td><code>undefined</code></td><td>Media queries, see <a data-mention href="queries.md">queries.md</a></td></tr><tr><td><code>supports</code></td><td><code>undefined</code></td><td>Supports queries, see <a data-mention href="queries.md">queries.md</a></td></tr></tbody></table>
 
 ```javascript
 module.exports = {

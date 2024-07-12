@@ -38,8 +38,6 @@ module.exports = {
 {% endtab %}
 {% endtabs %}
 
-Property keys in module configuration are automatically kebab-cased. For example `pageWidth` in the [`grid` module](../../modules/grid.md) becomes `--grid-page-width`.
-
 ### Configuration logic
 
 Since Pollen's configuration is just JavaScript, you can run any logic you need to generate your design system configuration as long as it's synchronous.&#x20;

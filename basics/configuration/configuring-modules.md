@@ -44,7 +44,7 @@ To do this Pollen provides all of its defaults as an argument to a configuration
 module.exports = (pollen) => ({
   modules: {
     scale: { ...pollen.scale, '000': '0.6875rem' },
-    letter: {...pollen.letter, xxl: '0.1em' }
+    letter: {...pollen.letter, '2xl': '0.1em' }
    } 
 });
 ```
@@ -58,7 +58,7 @@ const { defineConfig } = require('pollen-css/utils');
 module.exports = defineConfig(pollen => ({
   modules: {
     scale: { ...pollen.scale, '000': '0.6875rem' },
-    letter: {...pollen.letter, xxl: '0.1em' }
+    letter: {...pollen.letter, '2xl': '0.1em' }
    } 
   })
 );

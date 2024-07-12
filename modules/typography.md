@@ -52,21 +52,7 @@ Each fluid font size resizes between a min and max size, starting at mobile scre
 }
 ```
 
-| Property            | Value                                         | Range                   |
-| ------------------- | --------------------------------------------- | ----------------------- |
-| `--scale-fluid-000` | `clamp(0.625rem, 0.55rem + 0.25vw, 0.75rem)`  | `0.625rem` -> `0.75rem` |
-| `--scale-fluid-00`  | `clamp(0.75rem, 0.675rem + 0.25vw, 0.875rem)` | `0.75rem` -> `0.875rem` |
-| `--scale-fluid-0`   | `clamp(0.875rem, 0.8rem + 0.25vw, 1rem)`      | `0.875rem` -> `1rem`    |
-| `--scale-fluid-1`   | `clamp(1rem, 0.925rem + 0.25vw, 1.125rem)`    | `1rem` -> `1.125rem`    |
-| `--scale-fluid-2`   | `clamp(1.125rem, 1.05rem + 0.25vw, 1.25rem)`  | `1.125rem` -> `1.25rem` |
-| `--scale-fluid-3`   | `clamp(1.8125rem, 2rem + -0.625vw, 1.5rem)`   | `1.8125rem` -> `1.5rem` |
-| `--scale-fluid-4`   | `clamp(1.5rem, 1.275rem + 0.75vw, 1.875rem)`  | `1.5rem` -> `1.875rem`  |
-| `--scale-fluid-5`   | `clamp(1.875rem, 1.65rem + 0.75vw, 2.25rem)`  | `1.875rem` -> `2.25rem` |
-| `--scale-fluid-6`   | `clamp(2.25rem, 1.8rem + 1.5vw, 3rem)`        | `2.25rem` -> `3rem`     |
-| `--scale-fluid-7`   | `clamp(3rem, 2.55rem + 1.5vw, 3.75rem)`       | `3rem` -> `3.75rem`     |
-| `--scale-fluid-8`   | `clamp(3.75rem, 3.3rem + 1.5vw, 4.5rem)`      | `3.75rem` -> `4.5rem`   |
-| `--scale-fluid-9`   | `clamp(4.5rem, 3.6rem + 3vw, 6rem)`           | `4.5rem` -> `6rem`      |
-| `--scale-fluid-10`  | `clamp(6rem, 4.8rem + 4vw, 8rem)`             | `6rem` -> `8rem`        |
+<table><thead><tr><th>Property</th><th width="278.3333333333333">Value</th><th>Range</th></tr></thead><tbody><tr><td><code>--scale-fluid-000</code></td><td><code>clamp(0.625rem, 0.55rem + 0.25vw, 0.75rem)</code></td><td><code>0.625rem</code> -> <code>0.75rem</code></td></tr><tr><td><code>--scale-fluid-00</code></td><td><code>clamp(0.75rem, 0.675rem + 0.25vw, 0.875rem)</code></td><td><code>0.75rem</code> -> <code>0.875rem</code></td></tr><tr><td><code>--scale-fluid-0</code></td><td><code>clamp(0.875rem, 0.8rem + 0.25vw, 1rem)</code></td><td><code>0.875rem</code> -> <code>1rem</code></td></tr><tr><td><code>--scale-fluid-1</code></td><td><code>clamp(1rem, 0.925rem + 0.25vw, 1.125rem)</code></td><td><code>1rem</code> -> <code>1.125rem</code></td></tr><tr><td><code>--scale-fluid-2</code></td><td><code>clamp(1.125rem, 1.05rem + 0.25vw, 1.25rem)</code></td><td><code>1.125rem</code> -> <code>1.25rem</code></td></tr><tr><td><code>--scale-fluid-3</code></td><td><code>clamp(1.8125rem, 2rem + -0.625vw, 1.5rem)</code></td><td><code>1.8125rem</code> -> <code>1.5rem</code></td></tr><tr><td><code>--scale-fluid-4</code></td><td><code>clamp(1.5rem, 1.275rem + 0.75vw, 1.875rem)</code></td><td><code>1.5rem</code> -> <code>1.875rem</code></td></tr><tr><td><code>--scale-fluid-5</code></td><td><code>clamp(1.875rem, 1.65rem + 0.75vw, 2.25rem)</code></td><td><code>1.875rem</code> -> <code>2.25rem</code></td></tr><tr><td><code>--scale-fluid-6</code></td><td><code>clamp(2.25rem, 1.8rem + 1.5vw, 3rem)</code></td><td><code>2.25rem</code> -> <code>3rem</code></td></tr><tr><td><code>--scale-fluid-7</code></td><td><code>clamp(3rem, 2.55rem + 1.5vw, 3.75rem)</code></td><td><code>3rem</code> -> <code>3.75rem</code></td></tr><tr><td><code>--scale-fluid-8</code></td><td><code>clamp(3.75rem, 3.3rem + 1.5vw, 4.5rem)</code></td><td><code>3.75rem</code> -> <code>4.5rem</code></td></tr><tr><td><code>--scale-fluid-9</code></td><td><code>clamp(4.5rem, 3.6rem + 3vw, 6rem)</code></td><td><code>4.5rem</code> -> <code>6rem</code></td></tr><tr><td><code>--scale-fluid-10</code></td><td><code>clamp(6rem, 4.8rem + 4vw, 8rem)</code></td><td><code>6rem</code> -> <code>8rem</code></td></tr></tbody></table>
 
 ## Font Families
 
@@ -82,11 +68,11 @@ body {
 }
 ```
 
-| Property       | Value                                                                               |
-| -------------- | ----------------------------------------------------------------------------------- |
-| `--font-sans`  | `system-ui,-apple-system,Segoe UI,Roboto,Noto Sans,Ubuntu,Cantarell,Helvetica Neue` |
-| `--font-serif` | `Georgia, Cambria, "Times New Roman", Times, serif`                                 |
-| `--font-mono`  | `Consolas, Menlo, Monaco, "Liberation Mono", monospace`                             |
+| Property       | Value                                                                                                                |
+| -------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `--font-sans`  | `ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"` |
+| `--font-serif` | `ui-serif, Georgia, Cambria, "Times New Roman", Times, serif`                                                        |
+| `--font-mono`  | `ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace`                 |
 
 ## Font Weights
 
