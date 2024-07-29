@@ -21,13 +21,13 @@ import 'pollen-css/pollen.css';
 
 {% tab title="CSS import (CDN)" %}
 ```css
-@import "https://unpkg.com/pollen-css/pollen.css";
+@import "https://unpkg.com/pollen-css/dist/pollen.css";
 ```
 {% endtab %}
 
 {% tab title="HTML Link (CDN)" %}
 ```markup
-<link rel="stylesheet" href="https://unpkg.com/pollen-css/pollen.css" />
+<link rel="stylesheet" href="https://unpkg.com/pollen-css/dist/pollen.css" />
 ```
 {% endtab %}
 {% endtabs %}
