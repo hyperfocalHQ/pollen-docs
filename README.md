@@ -6,14 +6,14 @@ description: The CSS variables build system
 
 ![](<.gitbook/assets/cover wide.jpg>)
 
-Pollen is a highly configurable, responsive library of style-agnostic CSS variables for your next design system. It lets you write faster, more consistent, and more maintainable styles.&#x20;
+Pollen is a highly configurable library for managing CSS variables in your design system. It lets you write faster, more consistent, and more maintainable styles.
 
-Made and maintained with ❤️ by the fine people at [Bokeh](https://bokeh.photo).
+Made and maintained with ❤️ by the fine people at [Hyperfocal](https://hyperfocal.photo).
 
 ### Features
 
-* Robust library of well-considered, style-agnostic CSS variables (see [Broken link](broken-reference "mention"))
-* Fully configurable and extensible with CLI build tool (see [configuration](basics/configuration/ "mention"))
+* Robust library of well-considered, style-agnostic CSS variables
+* Fully configurable and extensible wwCLI build tool (see [configuration](basics/configuration/ "mention"))
 * Zero setup required to get started (see [getting-started.md](basics/getting-started.md "mention"))
 * Easy responsive design with support for configuring CSS queries (see [queries.md](basics/configuration/queries.md "mention"))
 * Lightweight, human-readable output if you ever want to move away from Pollen
