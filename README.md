@@ -13,7 +13,7 @@ Made and maintained with ❤️ by the fine people at [Hyperfocal](https://hyper
 ### Features
 
 * Robust library of well-considered, style-agnostic CSS variables
-* Fully configurable and extensible wwCLI build tool (see [configuration](basics/configuration/ "mention"))
+* Fully configurable and extensible CLI build tool (see [configuration](basics/configuration/ "mention"))
 * Zero setup required to get started (see [getting-started.md](basics/getting-started.md "mention"))
 * Easy responsive design with support for configuring CSS queries (see [queries.md](basics/configuration/queries.md "mention"))
 * Lightweight, human-readable output if you ever want to move away from Pollen
